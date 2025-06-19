@@ -1,0 +1,13 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar-head {
+  display: flex;
+}
