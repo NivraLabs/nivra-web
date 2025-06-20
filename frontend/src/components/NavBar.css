@@ -41,6 +41,17 @@
   padding: 20px;
 }
 
+.collapse-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  top: 80px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
 @media only screen and (max-width : 1200px) {
   .navbar {
     padding: 10px 20px;
