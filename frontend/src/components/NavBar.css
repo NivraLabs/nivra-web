@@ -3,11 +3,60 @@
   top: 0;
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 75px;
   background-color: white;
-  padding: 10px;
+  padding: 10px 25%;
 }
 
 .navbar-head {
   display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-menu-mobile {
+  display: none;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 3px;
+  color: color-mix(in srgb, currentColor 75%, transparent);
+}
+
+.nav-link:hover {
+  background: rgba(88, 90, 88, 0.1) 
+}
+
+.hb-menu-mobile {
+  padding: 20px;
+}
+
+@media only screen and (max-width : 1200px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .nav-menu-mobile {
+    display: flex;
+  }
+
+  .navbar {
+    height: 50px;
+  }
 }
