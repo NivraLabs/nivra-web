@@ -1,4 +1,4 @@
-.intro {
+.intro-slide {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,8 +17,42 @@
   padding: 10px 0 50px 0;
 }
 
+.desc-slide {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  gap: 30px;
+}
+
+.desc-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  max-width: 700px;
+}
+
+.nivra-g-1 {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 400px;
+}
+
 @media only screen and (max-width : 768px) {
-  .intro {
+  .intro-slide {
     height: calc(100vh - 100px);
+  }
+
+  .nivra-g-1 {
+    display: none;
+  }
+
+  .desc-card {
+    padding: 30px;
   }
 }
