@@ -17,11 +17,20 @@
   padding: 10px 0 50px 0;
 }
 
+.desc-slide-2,
 .desc-slide {
   display: flex;
   justify-content: center;
   padding: 30px;
   gap: 30px;
+}
+
+.desc-slide-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(0, 0, 31, 0.9);
 }
 
 .desc-card {
@@ -34,6 +43,22 @@
   max-width: 700px;
 }
 
+.desc-card-3,
+.desc-card-2 {
+  display: flex;
+  gap: 30px;
+}
+
+.card-2-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  max-width: 700px;
+  padding: 0px 50px;
+}
+
+.nivra-g-2,
 .nivra-g-1 {
   object-fit: cover;
   height: auto;
@@ -54,5 +79,23 @@
 
   .desc-card {
     padding: 30px;
+  }
+
+  .desc-card-2 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .desc-card-3 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-2-text {
+    padding: 0px;
+  }
+
+  .nivra-g-2 {
+    max-width: 100%;
   }
 }
