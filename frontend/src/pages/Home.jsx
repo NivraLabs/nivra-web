@@ -2,6 +2,20 @@ import nivra_p17 from '../assets/Nivra_p17_v2-min.jpg';
 import nivra_dispute from '../assets/nivra_dispute.jpg';
 import nivra_p19 from '../assets/nivra-p19.jpg';
 import nivra_p11 from '../assets/nivra_p11.jpg';
+import nivra_icon_16 from '../assets/Nivra icons-16.jpg';
+import nivra_icon_11 from '../assets/Nivra icons-11.jpg';
+import nivra_icon_15 from '../assets/Nivra icons-15.jpg';
+import nivra_icon_10 from '../assets/Nivra icons-10.jpg';
+import nivra_icon_8 from '../assets/Nivra icons-08.jpg';
+import nivra_icon_13 from '../assets/Nivra icons-13.jpg';
+import nivra_icon_14 from '../assets/Nivra icons-14.jpg';
+import nivra_icon_3 from '../assets/Nivra icons-03.jpg';
+import nivra_icon_12 from '../assets/Nivra icons-12.jpg';
+import nivra_icon_5 from '../assets/Nivra icons-05.jpg';
+import nivra_icon_9 from '../assets/Nivra icons-09.jpg';
+import nivra_icon_7 from '../assets/Nivra icons-07.jpg';
+import nivra_icon_18 from '../assets/Nivra icons-18.jpg';
+import nivra_icon_17 from '../assets/Nivra icons-17.jpg';
 import './Home.css';
 
 
@@ -64,6 +78,75 @@ export default function Home() {
               incorruptible finality without any central authority. 
             </p>
           </div>
+        </div>
+      </div>
+
+      <div class="q-slide">
+        <div class="text-cont">
+          <h2 class="heading-2">Unlocking Possibilities</h2>
+          <p class="pre-heading-1">Nivra’s on-chain justice brings tangible benefits to a wide range of real-world applications.</p>
+        </div>
+      </div>
+
+      <div class="q-slide-2">
+        <div class="card-grid">
+          <div class="g-card">
+            <p class="text">AI Agent Disputes</p>
+            <img src={nivra_icon_16} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">E-commerce</p>
+            <img src={nivra_icon_11} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Gaming</p>
+            <img src={nivra_icon_15} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Micro-justice</p>
+            <img src={nivra_icon_10} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Content Moderation</p>
+            <img src={nivra_icon_8} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Carbon Credits</p>
+            <img src={nivra_icon_13} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Escrow</p>
+            <img src={nivra_icon_14} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">License Compliance</p>
+            <img src={nivra_icon_3} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Insurance</p>
+            <img src={nivra_icon_12} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Oracle Aggregator</p>
+            <img src={nivra_icon_5} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Bug Hunting</p>
+            <img src={nivra_icon_9} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Freelancing</p>
+            <img src={nivra_icon_7} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">DAO Disputes</p>
+            <img src={nivra_icon_18} class="g-icon"/>
+          </div>
+          <div class="g-card">
+            <p class="text">Further Possibilities</p>
+            <img src={nivra_icon_17} class="g-icon"/>
+          </div>
+
         </div>
       </div>
     </>

@@ -25,12 +25,22 @@
   gap: 30px;
 }
 
+.q-slide-2,
+.q-slide,
 .desc-slide-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 50px;
   background-color: rgba(0, 0, 31, 0.9);
+}
+
+.q-slide {
+  padding: 0px 45px;
+}
+
+.q-slide-2 {
+  padding: 30px;
 }
 
 .desc-card {
@@ -56,6 +66,42 @@
   gap: 30px;
   max-width: 700px;
   padding: 0px 50px;
+}
+
+.text-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #020221;
+  width: 100%;
+  padding: 15px;
+  max-width: 1200px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  max-width: 1230px;
+}
+
+.g-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 50px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.g-icon {
+  height: auto;
+  width: 100%;
 }
 
 .nivra-g-2,
@@ -97,5 +143,27 @@
 
   .nivra-g-2 {
     max-width: 100%;
+  }
+
+  .heading-2 {
+    font-size: 3rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .g-card {
+    padding: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .g-card {
+    padding: 5px;
   }
 }
