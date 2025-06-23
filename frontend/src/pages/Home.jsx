@@ -17,6 +17,7 @@ import nivra_icon_7 from '../assets/Nivra icons-07.jpg';
 import nivra_icon_18 from '../assets/Nivra icons-18.jpg';
 import nivra_icon_17 from '../assets/Nivra icons-17.jpg';
 import './Home.css';
+import CollapsibleSection from '../components/CollapsibleSection';
 
 
 export default function Home() {
@@ -147,6 +148,44 @@ export default function Home() {
             <img src={nivra_icon_17} class="g-icon"/>
           </div>
 
+        </div>
+      </div>
+
+      <div class="qa-slide">
+        <div class="qa-cont">
+          <p class="qa-heading">Key Protocol Questions</p>
+          <CollapsibleSection 
+            title="How does Nivra's on-chain arbitration process work?" 
+            body="Parties embed a Nivra clause at contract deployment. When a dispute arises, 
+            Nivra Court opens a case. Nivsters commit votes using a cryptographic commit-and-reveal scheme, 
+            and the majority verdict directs the smart contract to redistribute funds entirely on-chain." 
+          />
+          <CollapsibleSection 
+            title="How are Nivsters selected and incentivized?" 
+            body="Nivsters stake NVR tokens to join domain-specific courts. 
+            Each stake creates a selection interval on-chain. When a dispute arises, 
+            a verifiable random number is drawn; if it falls within an interval, 
+            its owner is appointed as a juror for that case. 
+            Nivsters cast their decisions using a zero-knowledge commit-and-reveal scheme, 
+            then unveil their votes. Those who align with the majority earn fees, 
+            while minority voters forfeit part of their stake, making honesty the only rational strategy." 
+          />
+          <CollapsibleSection 
+            title="What functions does the NVR token serve?" 
+            body="The NVR Token is a central element of Nivra, serving multiple essential functions. 
+            It is used for staking in domain-specific pools, 
+            making Nivsters eligible for jury selection and providing strong Sybil resistance. 
+            Beyond staking, NVR drives the protocol’s incentive system: 
+            jurors whose votes align with the majority earn arbitration fees and a share of slashed stakes, 
+            while minority voters lose part of their deposit, so truthful rulings are the most profitable strategy. 
+            NVR also underpins Nivra’s on-chain governance." 
+          />
+          <CollapsibleSection 
+            title="How does Nivra ensure transparency and security?" 
+            body="Every piece of evidence, each vote commitment, and the final reveal proof are recorded on Sui. 
+            The commit-and-reveal protocol prevents front-running, guarantees privacy during voting, 
+            and makes every outcome auditable by anyone." 
+          />
         </div>
       </div>
     </>

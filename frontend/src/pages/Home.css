@@ -43,6 +43,33 @@
   padding: 30px;
 }
 
+.qa-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+
+.qa-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0px 30px;
+}
+
+.qa-heading {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .desc-card {
   display: flex;
   flex-direction: column;
@@ -85,6 +112,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
   max-width: 1230px;
+  width: 100%;
 }
 
 .g-card {
@@ -102,6 +130,7 @@
 .g-icon {
   height: auto;
   width: 100%;
+  max-width: 100px;
 }
 
 .nivra-g-2,
@@ -161,9 +190,5 @@
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
   .card-grid {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .g-card {
-    padding: 5px;
   }
 }
