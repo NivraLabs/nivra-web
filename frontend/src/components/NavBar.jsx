@@ -8,6 +8,7 @@ import { Show, createSignal } from 'solid-js';
 export default function NavBar() {
   return (
     <div class="navbar">
+      <div class="nav-wrap">
       <header class="navbar-head">
         <img src={logo} alt="logo"/>
         <img src={nivra} alt="nivra"/>
@@ -20,6 +21,7 @@ export default function NavBar() {
           <a class="nav-link">Join us</a>
         </nav>
         <BMenu />
+      </div>
       </div>
     </div>
   );
