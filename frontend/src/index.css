@@ -43,6 +43,12 @@ h2 {
   color: rgba(90, 193, 255, 0.6);
 }
 
+.pre-heading-3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(81, 182, 244);
+}
+
 .text {
   color: rgba(0, 0, 31, 0.8);
   font-size: 20px;

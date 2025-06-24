@@ -1,0 +1,47 @@
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 31, 0.9);
+  padding: 30px;
+  gap: 30px;
+}
+
+.f-email {
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgb(81, 182, 244);
+}
+
+.f-text {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.f-nav-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.f-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.f-copyright {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  width: 100%;
+}
+
+.f-logo {
+  display: flex;
+  width: 100%;
+}
+
+.f-cr-text {
+  color: white;
+}
