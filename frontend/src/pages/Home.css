@@ -11,6 +11,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
+  animation: intro-animation linear;
+  animation-timeline: view(0px 200px);
+}
+
+@keyframes intro-animation {
+  50% { opacity: 1;}
+  75%, 100% { opacity: 0;}
 }
 
 .slogan-1 {
@@ -78,6 +86,8 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 50px;
   max-width: 700px;
+  animation: fade-in linear;
+  animation-timeline: view(700px 0px);
 }
 
 .desc-card-3,
@@ -93,6 +103,8 @@
   gap: 30px;
   max-width: 700px;
   padding: 0px 50px;
+  animation: fade-in linear;
+  animation-timeline: view(700px 0px);
 }
 
 .text-cont {
@@ -141,6 +153,13 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 400px;
+  animation: fade-in linear;
+  animation-timeline: view(700px 0px);
+}
+
+@keyframes fade-in {
+  from {scale: 0.8; opacity: 0;}
+  to {scale: 1; opacity: 1;}
 }
 
 @media only screen and (max-width : 768px) {
@@ -154,6 +173,7 @@
 
   .desc-card {
     padding: 30px;
+    animation-timeline: view(1200px 0px);
   }
 
   .desc-card-2 {
