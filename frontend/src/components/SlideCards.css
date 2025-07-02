@@ -57,7 +57,28 @@
 }
 
 @media only screen and (max-width : 768px) {
-  .slide-card-image {
+  .slide-card-image-container {
     display: none;
+  }
+
+  .slide-card-text {
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+  .slide-card-wrapper {
+    height: 100%;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+
+  .icon {
+    min-width: 20px;
+  }
+
+  .heading-3 {
+    font-size: 20px;
   }
 }
