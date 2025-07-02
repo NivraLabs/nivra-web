@@ -86,8 +86,6 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 50px;
   max-width: 700px;
-  animation: fade-in linear;
-  animation-timeline: view(700px 0px);
 }
 
 .desc-card-3,

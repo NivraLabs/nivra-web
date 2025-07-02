@@ -18,6 +18,7 @@ import nivra_icon_18 from '../assets/Nivra icons-18.jpg';
 import nivra_icon_17 from '../assets/Nivra icons-17.jpg';
 import './Home.css';
 import CollapsibleSection from '../components/CollapsibleSection';
+import SlideCards from '../components/SlideCards';
 
 
 export default function Home() {
@@ -29,22 +30,19 @@ export default function Home() {
         <p class="pre-heading-1">Nivra is a modular arbitration protocol delivering transparent on-chain verdicts.</p>
       </div>
 
-      <div class="desc-slide">
-        <div class="desc-card">
-          <h3 class="heading-3">Fast, Tamper-Proof Arbitration for Sui Smart Contracts</h3>
-          <p class="text">
-            The global economy is rapidly shifting online. As value migrates to blockchains, 
-            smart contracts now manage treasuries, escrows, royalties, and entire supply chains. 
-            Although they execute exactly as coded, 
-            the disputes that arise demand a new breed of resolution.<br/><br/>
-            Nivra integrates a tamper-proof arbitration layer directly into Sui smart contracts. 
-            The protocol can swiftly issue a cryptographically verifiable ruling, redistribute funds, 
-            and complete the process quickly, securely, and in a decentralized manner. 
-            All evidence, votes, and verdicts remain on-chain for anyone to audit.
-          </p>
-        </div>
-        <img src={nivra_p17} class="nivra-g-1"/>
-      </div>
+      <SlideCards 
+        title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
+        text1="The global economy is rapidly shifting online. As value migrates to blockchains, 
+        smart contracts now manage treasuries, escrows, royalties, and entire supply chains. 
+        Although they execute exactly as coded, 
+        the disputes that arise demand a new breed of resolution."
+        text2="Nivra integrates a tamper-proof arbitration layer directly into Sui smart contracts. 
+        The protocol can swiftly issue a cryptographically verifiable ruling, redistribute funds, 
+        and complete the process quickly, securely, and in a decentralized manner. 
+        All evidence, votes, and verdicts remain on-chain for anyone to audit."
+        img1={nivra_p17}
+        img2={nivra_p19}
+      />
 
       <div class="desc-slide-2">
         <div class="desc-card-2">
