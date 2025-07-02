@@ -1,7 +1,7 @@
 import nivra_p17 from '../assets/Nivra_p17_v2-min.jpg';
-import nivra_dispute from '../assets/nivra_dispute.jpg';
-import nivra_p19 from '../assets/nivra-p19.jpg';
-import nivra_p11 from '../assets/nivra_p11.jpg';
+import nivra_dispute from '../assets/Nivra Dispute.png';
+import nivra_p19 from '../assets/Nivra_laki.png';
+import nivra_p11 from '../assets/NIVRA BOX.png';
 import nivra_icon_16 from '../assets/Nivra icons-16.jpg';
 import nivra_icon_11 from '../assets/Nivra icons-11.jpg';
 import nivra_icon_15 from '../assets/Nivra icons-15.jpg';

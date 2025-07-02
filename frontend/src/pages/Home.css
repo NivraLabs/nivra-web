@@ -152,7 +152,6 @@
   height: auto;
   width: 100%;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 400px;
   animation: fade-in linear;
   animation-timeline: view(700px 0px);
