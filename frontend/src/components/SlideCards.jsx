@@ -20,9 +20,9 @@ export default function SlideCards(props) {
     void textBody.offsetWidth;
     textBody.classList.add('animate');
 
-    img.classList.remove('animate');
+    img.classList.remove('animate2');
     void img.offsetWidth;
-    img.classList.add('animate');
+    img.classList.add('animate2');
   }
 
   return (

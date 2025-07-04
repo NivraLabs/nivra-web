@@ -25,7 +25,11 @@
 }
 
 .animate {
-  animation: fade-in linear 0.7s; 
+  animation: fade-in-grow linear 0.7s; 
+}
+
+.animate2 {
+  animation: fade-in-opacity linear 0.7s; 
 }
 
 .icon {
@@ -51,6 +55,16 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 400px;
+}
+
+@keyframes fade-in-grow {
+  from {scale: 0.8; opacity: 0;}
+  to {scale: 1; opacity: 1;}
+}
+
+@keyframes fade-in-opacity {
+  from {scale: 1; opacity: 0;}
+  to {scale: 1; opacity: 1;}
 }
 
 

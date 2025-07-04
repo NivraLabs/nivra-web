@@ -9,6 +9,7 @@ import Docs from './pages/Docs';
 import Roadmap from './pages/Roadmap';
 import About from './pages/About';
 import JoinUs from './pages/JoinUs';
+import NRVToken from './pages/NRVToken';
 
 const root = document.getElementById('root');
 
@@ -24,6 +25,7 @@ render(() => (
     <Route path="/documentation" component={Docs} />
     <Route path="/roadmap" component={Roadmap} />
     <Route path="/about" component={About} />
+    <Route path="/nrv-token" component={NRVToken} />
     <Route path="/join" component={JoinUs} />
   </Router>
 ), root);

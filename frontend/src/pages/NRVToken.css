@@ -1,0 +1,43 @@
+.nrv-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nrv-slide {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 60px);
+  max-width: 1200px;
+  gap: 30px;
+}
+
+.nrv-slide-w {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nrv-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.nrv-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media only screen and (max-width : 768px) {
+    .nrv-slide-w  {
+      flex-wrap: wrap;
+    }
+
+    .nrv-body {
+      padding: 30px;
+    }
+  }

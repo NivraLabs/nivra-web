@@ -171,16 +171,6 @@
   opacity: 1;
 }
 
-@keyframes fade-in-grow {
-  from {scale: 0.8; opacity: 0;}
-  to {scale: 1; opacity: 1;}
-}
-
-@keyframes fade-in-zero {
-  from {scale: 0; opacity: 0;}
-  to {scale: 1; opacity: 1;}
-}
-
 @media only screen and (max-width : 768px) {
   .intro-slide {
     height: calc(100vh - 100px);
