@@ -1,0 +1,38 @@
+.doc-wrapper {
+  height: 100vh;
+}
+
+.doc-slide {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.wp-cont {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding: 15px;
+  max-width: 1200px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wp-textblock {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-cont {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: rgba(0, 0, 31, 0.9);
+  border-radius: 5px;
+}
+
+.icon-d {
+  width: 100%;
+  height: auto;
+}

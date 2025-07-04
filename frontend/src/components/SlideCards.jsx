@@ -1,5 +1,7 @@
 import { Show, createSignal } from 'solid-js';
 import './SlideCards.css';
+import FadeIn from './FadeIn';
+import GrowFadeIn from './GrowFadeIn';
 
 export default function SlideCards(props) {
   const [page, setPage] = createSignal(1);
@@ -25,6 +27,7 @@ export default function SlideCards(props) {
 
   return (
     <div class="slide-card-wrapper">
+      <GrowFadeIn>
       <div class="slide-card" onClick={swapPages}>
         <svg class="icon"viewBox="0 -960 960 960" >
           <path fill="currentColor" d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/>
@@ -44,6 +47,8 @@ export default function SlideCards(props) {
           <path fill="currentColor" d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
         </svg>
       </div>
+      </GrowFadeIn>
+      <GrowFadeIn>
       <div class="slide-card-image-container">
       <Show when={page() === 1}>
       <img src={props.img1} class="slide-card-image"/>
@@ -52,6 +57,7 @@ export default function SlideCards(props) {
       <img src={props.img2} class="slide-card-image"/>
       </Show>
       </div>
+      </GrowFadeIn>
     </div>
   )
 }

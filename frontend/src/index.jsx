@@ -5,6 +5,10 @@ import './index.css';
 import App from './App';
 import { Route, Router } from '@solidjs/router';
 import Home from './pages/Home';
+import Docs from './pages/Docs';
+import Roadmap from './pages/Roadmap';
+import About from './pages/About';
+import JoinUs from './pages/JoinUs';
 
 const root = document.getElementById('root');
 
@@ -17,5 +21,9 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 render(() => (
   <Router root={App}>
     <Route path="/" component={Home} />
+    <Route path="/documentation" component={Docs} />
+    <Route path="/roadmap" component={Roadmap} />
+    <Route path="/about" component={About} />
+    <Route path="/join" component={JoinUs} />
   </Router>
 ), root);

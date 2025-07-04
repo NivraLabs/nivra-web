@@ -12,8 +12,7 @@
   padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 790px;
-  animation: fade-in linear;
-  animation-timeline: view(700px 0px);
+  height: 100%;
 }
 
 .slide-card-text {
@@ -52,9 +51,8 @@
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 400px;
-  animation: fade-in linear;
-  animation-timeline: view(700px 0px);
 }
+
 
 @media only screen and (max-width : 768px) {
   .slide-card-image-container {

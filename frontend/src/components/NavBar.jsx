@@ -10,15 +10,18 @@ export default function NavBar() {
     <div class="navbar">
       <div class="nav-wrap">
       <header class="navbar-head">
-        <img src={logo} alt="logo"/>
-        <img src={nivra} alt="nivra"/>
+        <a class="navbar-link" href="/">
+          <img class="logo" src={logo} alt="logo"/>
+          <img class="logo" src={nivra} alt="nivra"/>
+        </a>
       </header>
       <div class="nav-cont">
         <nav class="nav-menu">
-          <a class="nav-link">Docs</a>
-          <a class="nav-link">Roadmap</a>
-          <a class="nav-link">About</a>
-          <a class="nav-link">Join us</a>
+          <a href="/documentation" class="nav-link">Docs</a>
+          <a href="/roadmap" class="nav-link">Roadmap</a>
+          <a href="/about" class="nav-link">About</a>
+          <a href="/nrv-token" class="nav-link">NRV Token</a>
+          <a href="/join" class="nav-link">Join us</a>
         </nav>
         <BMenu />
       </div>
@@ -39,10 +42,11 @@ function BMenu() {
       <img class="hb-menu-icon" src={menu} onClick={showMenu} alt="menu" />
       <Show when={collapsed()}>
         <div class="collapse-menu">
-          <a class="nav-link">Docs</a>
-          <a class="nav-link">Roadmap</a>
-          <a class="nav-link">About</a>
-          <a class="nav-link">Join us</a>
+          <a href="/documentation" class="nav-link">Docs</a>
+          <a href="/roadmap" class="nav-link">Roadmap</a>
+          <a href="/about" class="nav-link">About</a>
+          <a href="/nrv-token" class="nav-link">NRV Token</a>
+          <a href="/join" class="nav-link">Join us</a>
         </div>
       </Show>
     </nav>

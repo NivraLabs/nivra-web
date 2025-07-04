@@ -33,8 +33,8 @@
   gap: 30px;
 }
 
-.q-slide-2,
 .q-slide,
+.q-slide-2,
 .desc-slide-2 {
   display: flex;
   flex-direction: column;
@@ -43,8 +43,9 @@
   background-color: rgba(0, 0, 31, 0.9);
 }
 
-.q-slide {
-  padding: 0px 45px;
+.q-slide-c {
+  display: flex;
+  width: 100%;
 }
 
 .q-slide-2 {
@@ -101,20 +102,17 @@
   gap: 30px;
   max-width: 700px;
   padding: 0px 50px;
-  animation: fade-in linear;
-  animation-timeline: view(700px 0px);
+  height: 100%;
 }
 
 .text-cont {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
-  background-color: #020221;
   width: 100%;
   padding: 15px;
   max-width: 1200px;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-grid {
@@ -135,9 +133,7 @@
   background-color: white;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  animation: fade-in linear;
-  animation-timeline: view(800px -100px);
-
+  height: calc(100% - 20px);
 }
 
 .g-icon {
@@ -153,11 +149,29 @@
   width: 100%;
   border-radius: 5px;
   max-width: 400px;
-  animation: fade-in linear;
-  animation-timeline: view(700px 0px);
 }
 
-@keyframes fade-in {
+.grow-fade-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.grow-fade-in.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-in-slow {
+  opacity: 0;
+  transition: opacity 4s ease-out;
+  transition-delay: 250ms;
+}
+
+.fade-in-slow.visible {
+  opacity: 1;
+}
+
+@keyframes fade-in-grow {
   from {scale: 0.8; opacity: 0;}
   to {scale: 1; opacity: 1;}
 }
@@ -209,6 +223,12 @@
 
   .g-card {
     padding: 5px;
+    height: calc(100% - 10px);
+  }
+
+  .g-icon {
+    height: calc(100% - 20px);
+    width: auto;
   }
 }
 

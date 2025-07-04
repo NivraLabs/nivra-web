@@ -13,10 +13,51 @@ body {
   background-color: white;
 }
 
-h2 {
+a, button {
+  all: unset;
+}
+
+
+.heading-1 {
   color: white;
   text-align: center;
   font-size: 4rem;
+}
+
+.head-2 {
+  color: black;
+  font-size: 2rem;
+}
+
+.head-3 {
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.head-3-white {
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.head-3-white-c {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.head-4 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.head-4-white {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .heading-3 {
@@ -28,6 +69,12 @@ h2 {
 .heading-3-2 {
   color: white;
   font-size: 1.78rem;
+}
+
+.heading-3-3 {
+  color: white;
+  font-size: 1.78rem;
+  text-align: center;
 }
 
 .pre-heading-1 {
@@ -52,4 +99,28 @@ h2 {
 .text {
   color: rgba(0, 0, 31, 0.8);
   font-size: 20px;
+}
+
+.text-white {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.text-white-n {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width : 768px) {
+  .head-2 {
+    font-size: 25px;
+  }
+
+  .head-3-white,
+  .head-3 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+  }
 }
