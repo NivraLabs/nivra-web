@@ -3,6 +3,7 @@ import nivra from '../assets/nivra.svg';
 import menu from '../assets/menu.svg';
 import './NavBar.css';
 import { Show, createSignal } from 'solid-js';
+import MobileMenu from './MobileMenu';
 
 
 export default function NavBar() {
@@ -23,32 +24,9 @@ export default function NavBar() {
           <a href="/nrv-token" class="nav-link">NRV Token</a>
           <a href="/join" class="nav-link">Join us</a>
         </nav>
-        <BMenu />
+        <MobileMenu />
       </div>
       </div>
     </div>
-  );
-}
-
-function BMenu() {
-  const [collapsed, setCollapsed] = createSignal(false);
-
-  const showMenu = () => {
-    setCollapsed(!collapsed());
-  }
-
-  return (
-    <nav class="nav-menu-mobile">
-      <img class="hb-menu-icon" src={menu} onClick={showMenu} alt="menu" />
-      <Show when={collapsed()}>
-        <div class="collapse-menu">
-          <a href="/documentation" class="nav-link">Docs</a>
-          <a href="/roadmap" class="nav-link">Roadmap</a>
-          <a href="/about" class="nav-link">About</a>
-          <a href="/nrv-token" class="nav-link">NRV Token</a>
-          <a href="/join" class="nav-link">Join us</a>
-        </div>
-      </Show>
-    </nav>
   );
 }
