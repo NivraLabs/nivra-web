@@ -13,7 +13,7 @@
   background-position: center center;
 
   animation: intro-animation linear;
-  animation-timeline: view(0px 200px);
+  animation-timeline: view(0px 600px);
 }
 
 @keyframes intro-animation {

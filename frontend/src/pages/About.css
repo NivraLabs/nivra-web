@@ -38,9 +38,14 @@
 }
 
 .prob-exp-wrap {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content 1fr;
   gap: 10px;
-  align-items: start;
+}
+
+.exp-text {
+  grid-row: 2;
+  grid-column: 2;
 }
 
 .icon-p {
@@ -48,6 +53,11 @@
   width: 20px;
   height: auto;
   color: #473a87;
+  align-self: center;
+}
+
+.exp-head {
+  align-self: center;
 }
 
 .mission-body {
