@@ -1,8 +1,6 @@
 import logo from '../assets/nivra_logo.svg';
 import nivra from '../assets/nivra.svg';
-import menu from '../assets/menu.svg';
 import './NavBar.css';
-import { Show, createSignal } from 'solid-js';
 import MobileMenu from './MobileMenu';
 
 
