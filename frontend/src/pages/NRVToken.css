@@ -62,6 +62,35 @@
   gap: 10px;
 }
 
+.hero-title { 
+  transform: translateX(-100%); /* initial position: off-screen to the left */ 
+  opacity: 0; /* initial opacity: invisible */ 
+  animation: slideInLeft 1s ease-out forwards, /* slide to center in 1s (ease-out, forwards keeps end state) */ 
+  fadeIn 2s ease-in forwards; /* fade to full opacity in 2s (ease-in) */ 
+} /* Image: start off-screen to the right, then slide left and fade in */ 
+  
+.hero-image { 
+  transform: translateX(100%); /* initial position: off-screen to the right */ 
+  opacity: 0; /* initial opacity: invisible */ 
+  animation: slideInRight 1s ease-out forwards, /* slide to center in 1s (ease-out, forwards keeps end state) */ 
+  fadeIn 2s ease-in forwards; /* fade to full opacity in 2s (ease-in) */ 
+} /* Keyframes for sliding and fading animations */ 
+  
+@keyframes slideInLeft { 
+  from { transform: translateX(-100%); } 
+  to { transform: translateX(0); } 
+} 
+  
+@keyframes slideInRight { 
+  from { transform: translateX(100%); } 
+  to { transform: translateX(0); } 
+} 
+  
+@keyframes fadeIn { 
+  from { opacity: 0; } 
+  to { opacity: 1; } 
+}
+
 @media only screen and (max-width : 768px) {
     .nrv-slide-w  {
       grid-template-columns: 1fr;

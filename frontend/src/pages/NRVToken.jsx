@@ -6,8 +6,8 @@ export default function Docs() {
   return(
     <div class="nrv-wrapper">
       <div class="nrv-slide">
-        <h2 class="head-3">NVR Token</h2>
-        <img class="nrv-img" src={nivra_pool} />
+        <h2 class="head-3 hero-title">NVR Token</h2>
+        <img class="hero-image nrv-img" src={nivra_pool} />
         <h3 class="head-4">The NVR Token is a central element of Nivra, serving multiple essential functions.</h3>
       </div>
       <div class="nrv-slide-w">
