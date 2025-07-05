@@ -28,7 +28,7 @@
 }
 
 .cd-img-cont {
-  width: 400px;
+  max-width: 400px;
   height: 100%;
   display: flex;
   border-radius: 5px;
@@ -133,5 +133,20 @@
   .slider-body {
     height: 500px;
   }
+}
 
+@media only screen and (min-width : 768px) and (max-width: 1024px) {
+  .slider-body {
+    height: 500px;
+  }
+
+  .card-slider-wrapper {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .slider-card-img-wrapper {
+    max-height: 100%;
+    height: 100%;
+  }
 }
