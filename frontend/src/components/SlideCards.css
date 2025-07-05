@@ -28,10 +28,6 @@
   animation: fade-in-grow linear 0.7s; 
 }
 
-.animate2 {
-  animation: fade-in-opacity linear 0.7s; 
-}
-
 .icon {
   min-width: 30px;
   width: 30px;
@@ -46,14 +42,6 @@
   width: 400px;
   height: 100%;
   display: flex;
-}
-
-.slide-card-image {
-  object-fit: cover;
-  width: 100%;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 400px;
 }
 
 @keyframes fade-in-grow {
@@ -80,17 +68,5 @@
   .slide-card-wrapper {
     height: 350px;
     gap: 0;
-  }
-
-  .text {
-    font-size: 17px;
-  }
-
-  .icon {
-    min-width: 20px;
-  }
-
-  .heading-3 {
-    font-size: 20px;
   }
 }

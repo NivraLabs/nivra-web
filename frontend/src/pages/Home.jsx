@@ -20,6 +20,7 @@ import './Home.css';
 import SlideCards from '../components/SlideCards';
 import GrowFadeIn from '../components/GrowFadeIn';
 import FadeInSlow from '../components/FadeInSlow';
+import CardSlider from '../components/CardSlider';
 
 
 export default function Home() {
@@ -31,18 +32,22 @@ export default function Home() {
         <p class="pre-heading-1">Nivra is a modular arbitration protocol delivering transparent on-chain verdicts.</p>
       </div>
 
-      <SlideCards 
+      <CardSlider 
+        cards={[
+          <p class="text">The global economy is rapidly shifting online. <br/>As value migrates to blockchains, 
+          smart contracts now manage treasuries, escrows, royalties, and entire supply chains.<br/>
+          Although they execute exactly as coded, 
+          the disputes that arise demand a new breed of resolution.</p>,
+          <p class="text">Nivra integrates a tamper-proof arbitration layer directly into Sui smart contracts.<br/> 
+          The protocol can swiftly issue a cryptographically verifiable ruling, redistribute funds, 
+          and complete the process quickly, securely, and in a decentralized manner.<br/> 
+          All evidence, votes, and verdicts remain on-chain for anyone to audit.</p>
+        ]}
+        imgs={[
+          <img class="nivra-g-2" src={nivra_p17} />,
+          <img class="nivra-g-2" src={nivra_p19} />
+        ]} 
         title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
-        text1="The global economy is rapidly shifting online. As value migrates to blockchains, 
-        smart contracts now manage treasuries, escrows, royalties, and entire supply chains. 
-        Although they execute exactly as coded, 
-        the disputes that arise demand a new breed of resolution."
-        text2="Nivra integrates a tamper-proof arbitration layer directly into Sui smart contracts. 
-        The protocol can swiftly issue a cryptographically verifiable ruling, redistribute funds, 
-        and complete the process quickly, securely, and in a decentralized manner. 
-        All evidence, votes, and verdicts remain on-chain for anyone to audit."
-        img1={nivra_p17}
-        img2={nivra_p19}
       />
 
       <div class="desc-slide-2">

@@ -1,0 +1,136 @@
+.slider-card-img-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+  height: 400px;
+  max-height: 400px;
+}
+
+.card-slider {
+  overflow: hidden;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.card-slider-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.card-slider-wrapper-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cd-img-cont {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
+  .card-slider.dragging {
+    cursor: grabbing;
+  }
+
+  .card-slider {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+
+.slider-body {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 790px;
+  height: 400px;
+}
+  
+  .slider-track {
+    display: flex;
+    justify-content: center;
+    will-change: transform;
+  }
+  
+  .card-slider .slide {
+    user-select: none;
+  }
+  
+  .card-slider .slide img {
+    pointer-events: none;
+    user-drag: none;
+  }
+
+  .nav {
+    min-width: 30px;
+    width: 30px;
+    height: auto;
+  }
+
+.nav:hover {
+  color: rgba(90, 193, 255, 0.6);
+}
+  
+ .dots {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background: #333;
+  }
+
+.animate2 {
+  animation: fade-in-opacity linear 0.7s; 
+}
+
+@keyframes fade-in-opacity {
+  from {scale: 1; opacity: 0;}
+  to {scale: 1; opacity: 1;}
+}
+
+@media only screen and (max-width : 768px) {
+  .slider-card-img-wrapper {
+    flex-wrap: wrap;
+    height: 100%;
+    max-height: 100%;
+  }
+
+  .card-slider-wrapper {
+    padding: 15px;
+  }
+
+  .cd-img-cont {
+    display: none;
+    /*width: 100%;*/
+  }
+
+  .card-slider-wrapper-text {
+    gap: 15px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .slider-body {
+    height: 500px;
+  }
+}
