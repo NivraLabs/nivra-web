@@ -7,12 +7,10 @@ function CardSlider(props) {
   const cardsCount = props.cards.length;
 
   // Clone last and first cards to create the infinite loop effect
-  const slides = cardsCount > 1
-    ? [...props.cards]
-    : [...props.cards];
+  const slides = [...props.cards];
 
-  const [currentIndex, setCurrentIndex] = createSignal(0); // logical index (0-based)
-  const [slidePosition, setSlidePosition] = createSignal(cardsCount > 1 ? 0 : 0); // physical index in slides
+  const [currentIndex, setCurrentIndex] = createSignal(0);
+  const [slidePosition, setSlidePosition] = createSignal(0);
   const [isDragging, setIsDragging] = createSignal(false);
   const [isTransitioning, setIsTransitioning] = createSignal(true);
 
@@ -88,7 +86,7 @@ function CardSlider(props) {
 
     const threshold = containerWidth * 0.3;
 
-    if (dragOffset < threshold) {
+    if (dragOffset < -threshold) {
       nextSlide();
     } else if (dragOffset > threshold) {
       prevSlide();
