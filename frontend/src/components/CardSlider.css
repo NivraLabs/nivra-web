@@ -52,7 +52,7 @@
   padding: 5px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   max-width: 790px;
-  height: 400px;
+  height: 390px;
 }
   
   .slider-track {
@@ -79,7 +79,6 @@
 .nav:hover {
   color: rgba(90, 193, 255, 0.6);
 }
-  
  .dots {
     display: flex;
     gap: 0.5rem;
@@ -115,6 +114,7 @@
 
   .card-slider-wrapper {
     padding: 15px;
+    text-align: center;
   }
 
   .cd-img-cont {
@@ -133,4 +133,5 @@
   .slider-body {
     height: 500px;
   }
+
 }

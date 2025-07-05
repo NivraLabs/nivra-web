@@ -137,10 +137,6 @@
   transition: transform 0.2s ease;
 }
 
-.g-card:hover {
-  transform: scale(1.2);
-}
-
 .g-icon {
   height: auto;
   width: 100%;
