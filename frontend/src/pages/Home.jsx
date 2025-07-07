@@ -16,6 +16,7 @@ import nivra_icon_9 from '../assets/Nivra icons-09.jpg';
 import nivra_icon_7 from '../assets/Nivra icons-07.jpg';
 import nivra_icon_18 from '../assets/Nivra icons-18.jpg';
 import nivra_icon_17 from '../assets/Nivra icons-17.jpg';
+import img_4220 from '../assets/IMG_4220.png';
 import './Home.css';
 import SlideCards from '../components/SlideCards';
 import GrowFadeIn from '../components/GrowFadeIn';
@@ -45,7 +46,7 @@ export default function Home() {
         ]}
         imgs={[
           <img class="nivra-g-2" src={nivra_p17} />,
-          <img class="nivra-g-2" src={nivra_p19} />
+          <img class="nivra-g-2" src={img_4220} />
         ]} 
         title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
       />
