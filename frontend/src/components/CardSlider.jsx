@@ -8,15 +8,20 @@ function CardSlider(props) {
   const slides = [...props.cards];
 
   const [currentIndex, setCurrentIndex] = createSignal(0);
-  const [isDragging, setIsDragging] = createSignal(false);
+  //const [isDragging, setIsDragging] = createSignal(false);
 
   let startX = 0;
   let dragOffset = 0;
   let trackRef;
 
   const goToIndex = (index) => {
-    if (cardsCount <= 1) return;
-    const newIndex = (index + cardsCount) % cardsCount;
+    let newIndex = index % cardsCount;
+    
+    if (newIndex === -1) {
+      newIndex = cardsCount - 1;
+    }
+
+    setCurrentIndex(newIndex);
 
     const textBody = document.getElementById("animate-text");
     const img = document.getElementById("animate-img");
@@ -28,13 +33,12 @@ function CardSlider(props) {
     img.classList.remove('animate2');
     void img.offsetWidth;
     img.classList.add('animate2');
-
-    setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => goToIndex(currentIndex() + 1);
   const prevSlide = () => goToIndex(currentIndex() - 1);
 
+  /*
   const handlePointerDown = (e) => {
     if (cardsCount <= 1) return;
     e.currentTarget.setPointerCapture(e.pointerId);
@@ -60,7 +64,7 @@ function CardSlider(props) {
       trackRef.style.transform = `translateX(${0})`;
     }
 
-    const threshold = 0;
+    const threshold = 30;
 
     if (dragOffset < -threshold) {
       nextSlide();
@@ -71,12 +75,13 @@ function CardSlider(props) {
     setIsDragging(false);
     e.currentTarget.releasePointerCapture(e.pointerId);
   };
+  */
 
   return (
     <div class="slider-card-img-wrapper">
       <GrowFadeIn>
       <div class="slider-body">
-        <svg class="nav" onclick={nextSlide} viewBox="0 -960 960 960" >
+        <svg class="nav" onclick={prevSlide} viewBox="0 -960 960 960" >
           <path fill="currentColor" d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/>
         </svg>
         <div class="card-slider-wrapper">
@@ -85,11 +90,11 @@ function CardSlider(props) {
           <div class="card-slider">
             <div
               class="slider-track"
-              ref={trackRefElement => (trackRef = trackRefElement)}
-              on:pointerdown={handlePointerDown}
-              on:pointermove={handlePointerMove}
-              on:pointerup={handlePointerUp}
-              on:pointercancel={handlePointerUp}
+              //ref={trackRefElement => (trackRef = trackRefElement)}
+              //on:pointerdown={handlePointerDown}
+              //on:pointermove={handlePointerMove}
+              //on:pointerup={handlePointerUp}
+              //on:pointercancel={handlePointerUp}
             >
               <div id="animate-text">
               {slides[currentIndex()]}
@@ -109,7 +114,7 @@ function CardSlider(props) {
             </For>
           </div>
         </div>
-        <svg class="nav" onclick={prevSlide} viewBox="0 -960 960 960">
+        <svg class="nav" onclick={nextSlide} viewBox="0 -960 960 960">
           <path fill="currentColor" d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
         </svg>
       </div>
