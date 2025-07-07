@@ -5,40 +5,18 @@ import GrowFadeIn from './GrowFadeIn';
 
 function CardSlider(props) {
   const cardsCount = props.cards.length;
-
-  // Clone last and first cards to create the infinite loop effect
   const slides = [...props.cards];
 
   const [currentIndex, setCurrentIndex] = createSignal(0);
-  const [slidePosition, setSlidePosition] = createSignal(0);
   const [isDragging, setIsDragging] = createSignal(false);
-  const [isTransitioning, setIsTransitioning] = createSignal(true);
 
   let startX = 0;
   let dragOffset = 0;
-  let containerWidth = 0;
   let trackRef;
-
-  onMount(() => {
-    // Measure the width of the slider container once mounted
-    if (trackRef && trackRef.parentElement) {
-      containerWidth = trackRef.parentElement.offsetWidth;
-    }
-  });
 
   const goToIndex = (index) => {
     if (cardsCount <= 1) return;
     const newIndex = (index + cardsCount) % cardsCount;
-    let newSlidePos = newIndex;
-
-    // Handle wrap from last to first
-    if (currentIndex() === cardsCount - 1 && newIndex === 0) {
-      newSlidePos = 0;
-    }
-    // Handle wrap from first to last
-    if (currentIndex() === 0 && newIndex === cardsCount - 1) {
-      newSlidePos = slides.length - 1;
-    }
 
     const textBody = document.getElementById("animate-text");
     const img = document.getElementById("animate-img");
@@ -51,9 +29,7 @@ function CardSlider(props) {
     void img.offsetWidth;
     img.classList.add('animate2');
 
-    setIsTransitioning(true);
     setCurrentIndex(newIndex);
-    setSlidePosition(newSlidePos);
   };
 
   const nextSlide = () => goToIndex(currentIndex() + 1);
@@ -84,7 +60,7 @@ function CardSlider(props) {
       trackRef.style.transform = `translateX(${0})`;
     }
 
-    const threshold = containerWidth * 0.3;
+    const threshold = 0;
 
     if (dragOffset < -threshold) {
       nextSlide();
@@ -94,20 +70,6 @@ function CardSlider(props) {
 
     setIsDragging(false);
     e.currentTarget.releasePointerCapture(e.pointerId);
-  };
-
-  const handleTransitionEnd = () => {
-    if (slidePosition() === slides.length - 1) {
-      setIsTransitioning(false);
-      setSlidePosition(0);
-      requestAnimationFrame(() => setIsTransitioning(true));
-    }
-
-    if (slidePosition() === 0) {
-      setIsTransitioning(false);
-      setSlidePosition(cardsCount - 1);
-      requestAnimationFrame(() => setIsTransitioning(true));
-    }
   };
 
   return (
@@ -120,7 +82,7 @@ function CardSlider(props) {
         <div class="card-slider-wrapper">
           <div class="card-slider-wrapper-text">
           <h3 class="heading-3">{props.title}</h3>
-          <div class="card-slider" classList={{ dragging: isDragging() }}>
+          <div class="card-slider">
             <div
               class="slider-track"
               ref={trackRefElement => (trackRef = trackRefElement)}
@@ -129,11 +91,9 @@ function CardSlider(props) {
               on:pointerup={handlePointerUp}
               on:pointercancel={handlePointerUp}
             >
-              <Show when={isTransitioning()}>
-                <div id="animate-text">
-                {slides[slidePosition()]}
-                </div>
-              </Show>
+              <div id="animate-text">
+              {slides[currentIndex()]}
+              </div>
             </div>
           </div>
           </div>
@@ -155,11 +115,9 @@ function CardSlider(props) {
       </div>
       </GrowFadeIn>
       <GrowFadeIn>
-      <Show when={isTransitioning()}>
         <div class="cd-img-cont" id="animate-img">
-          {props.imgs[slidePosition()]}
+          {props.imgs[currentIndex()]}
         </div>
-      </Show>
       </GrowFadeIn>
     </div>
   );

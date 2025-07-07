@@ -1,4 +1,5 @@
 import { onMount, onCleanup } from "solid-js";
+import './GrowFadeIn.css';
 
 export default function GrowFadeIn(props) {
   let ref;

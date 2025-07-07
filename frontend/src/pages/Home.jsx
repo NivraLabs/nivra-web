@@ -44,8 +44,8 @@ export default function Home() {
           All evidence, votes, and verdicts remain on-chain for anyone to audit.</p>
         ]}
         imgs={[
-          <img class="nivra-g-2" loading="lazy" src={nivra_p17} />,
-          <img class="nivra-g-2" loading="lazy" src={img_4220} />
+          <img class="nivra-g-2" src={nivra_p17} />,
+          <img class="nivra-g-2" src={img_4220} />
         ]} 
         title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
       />
@@ -53,7 +53,7 @@ export default function Home() {
       <div class="desc-slide-2">
         <div class="desc-card-2">
           <GrowFadeIn>
-          <img loading="lazy" src={nivra_dispute} class="nivra-g-2"/>
+          <img src={nivra_dispute} class="nivra-g-2"/>
           </GrowFadeIn>
           <GrowFadeIn>
           <div class="card-2-text">
@@ -78,13 +78,13 @@ export default function Home() {
           </div>
           </GrowFadeIn>
           <GrowFadeIn>
-          <img loading="lazy" src={nivra_p19} class="nivra-g-2"/>
+          <img src={nivra_p19} class="nivra-g-2"/>
           </GrowFadeIn>
         </div>
 
         <div class="desc-card-2">
           <GrowFadeIn>
-            <img loading="lazy" src={nivra_p11} class="nivra-g-2"/>
+            <img src={nivra_p11} class="nivra-g-2"/>
           </GrowFadeIn>
           <GrowFadeIn>
           <div class="card-2-text">
@@ -112,85 +112,85 @@ export default function Home() {
         <FadeInSlow>
           <div class="g-card">
             <p class="text">AI Agent Disputes</p>
-            <img loading="lazy" src={nivra_icon_16} class="g-icon"/>
+            <img src={nivra_icon_16} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">E-commerce</p>
-            <img loading="lazy" src={nivra_icon_11} class="g-icon"/>
+            <img src={nivra_icon_11} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Gaming</p>
-            <img loading="lazy" src={nivra_icon_15} class="g-icon"/>
+            <img src={nivra_icon_15} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Micro-justice</p>
-            <img loading="lazy" src={nivra_icon_10} class="g-icon"/>
+            <img src={nivra_icon_10} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Content Moderation</p>
-            <img loading="lazy" src={nivra_icon_8} class="g-icon"/>
+            <img src={nivra_icon_8} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Carbon Credits</p>
-            <img loading="lazy" src={nivra_icon_13} class="g-icon"/>
+            <img src={nivra_icon_13} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Escrow</p>
-            <img loading="lazy" src={nivra_icon_14} class="g-icon"/>
+            <img src={nivra_icon_14} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">License Compliance</p>
-            <img loading="lazy" src={nivra_icon_3} class="g-icon"/>
+            <img src={nivra_icon_3} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Insurance</p>
-            <img loading="lazy" src={nivra_icon_12} class="g-icon"/>
+            <img src={nivra_icon_12} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Oracle Aggregator</p>
-            <img loading="lazy" src={nivra_icon_5} class="g-icon"/>
+            <img src={nivra_icon_5} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Bug Hunting</p>
-            <img loading="lazy" src={nivra_icon_9} class="g-icon"/>
+            <img src={nivra_icon_9} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Freelancing</p>
-            <img loading="lazy" src={nivra_icon_7} class="g-icon"/>
+            <img src={nivra_icon_7} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">DAO Disputes</p>
-            <img loading="lazy" src={nivra_icon_18} class="g-icon"/>
+            <img src={nivra_icon_18} class="g-icon"/>
           </div>
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
             <p class="text">Further Possibilities</p>
-            <img loading="lazy" src={nivra_icon_17} class="g-icon"/>
+            <img src={nivra_icon_17} class="g-icon"/>
           </div>
         </FadeInSlow>
 
