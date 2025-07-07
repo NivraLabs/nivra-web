@@ -77,7 +77,6 @@ function CardSlider(props) {
 
   return (
     <div class="slider-card-img-wrapper">
-      <GrowFadeIn>
       <div class="slider-body">
         <svg class="nav" onclick={prevSlide} viewBox="0 -960 960 960" >
           <path fill="currentColor" d="M640-80 240-480l400-400 71 71-329 329 329 329-71 71Z"/>
@@ -116,12 +115,9 @@ function CardSlider(props) {
           <path fill="currentColor" d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/>
         </svg>
       </div>
-      </GrowFadeIn>
-      <GrowFadeIn>
         <div class="cd-img-cont" id="animate-img">
           {props.imgs[currentIndex()]}
         </div>
-      </GrowFadeIn>
     </div>
   );
 }
