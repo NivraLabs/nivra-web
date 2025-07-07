@@ -1,5 +1,5 @@
-import nivra_p17 from '../assets/Nivra_p17_v2-min.jpg';
-import nivra_dispute from '../assets/Nivra Dispute.png';
+import nivra_p17 from '../assets/Nivra ekakortti (1).png';
+import nivra_dispute from '../assets/Nivra Disputex (1).png';
 import nivra_p19 from '../assets/Nivra_laki.png';
 import nivra_p11 from '../assets/NIVRA BOX.png';
 import nivra_icon_16 from '../assets/Nivra icons-16.jpg';
@@ -16,7 +16,7 @@ import nivra_icon_9 from '../assets/Nivra icons-09.jpg';
 import nivra_icon_7 from '../assets/Nivra icons-07.jpg';
 import nivra_icon_18 from '../assets/Nivra icons-18.jpg';
 import nivra_icon_17 from '../assets/Nivra icons-17.jpg';
-import img_4220 from '../assets/IMG_4220.png';
+import img_4220 from '../assets/Nivra contract (1).png';
 import './Home.css';
 import GrowFadeIn from '../components/GrowFadeIn';
 import FadeInSlow from '../components/FadeInSlow';
