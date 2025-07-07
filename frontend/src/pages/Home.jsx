@@ -43,10 +43,7 @@ export default function Home() {
           and complete the process quickly, securely, and in a decentralized manner.<br/> 
           All evidence, votes, and verdicts remain on-chain for anyone to audit.</p>
         ]}
-        imgs={[
-          <img class="nivra-g-2" src={nivra_p17} />,
-          <img class="nivra-g-2" src={img_4220} />
-        ]} 
+        imgs={[nivra_p17,img_4220]} 
         title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
       />
 
