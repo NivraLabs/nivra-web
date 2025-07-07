@@ -1,0 +1,42 @@
+
+
+@keyframes slide-up {
+    from { transform: scale(0) translateY(300px);}
+    to   { transform: scale(1) translateY(0);}
+  }
+  @keyframes fade-scale {
+    from { opacity: 0; transform: scale(0.8); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  
+  /* Base state: elements are hidden and slightly shifted down */
+  .animate-on-scroll {
+    /*opacity: 0;*/
+    transform: translateY(300px);
+    will-change: transform, opacity;  /* Hint for performance optimization */
+  }
+  
+  /* Trigger classes: applied when element enters viewport */
+  .animate-on-scroll.animate-slide-up {
+    animation: slide-up 1s forwards;      /* slide up over 1s */
+  }
+  .animate-on-scroll.animate-fade-scale {
+    animation: fade-scale 2s forwards;    /* fade+scale over 2s */
+  }
+  
+  /* (Optional) You can combine animations if needed using both classes */
+  .animate-on-scroll.animate-slide-up.animate-fade-scale {
+    animation: slide-up 1s forwards, fade-scale 2s forwards;
+  }
+
+  @media only screen and (max-width : 768px) {
+    .animate-on-scroll {
+        /*opacity: 0;*/
+        transform: translateY(100px);
+      }
+
+    @keyframes slide-up {
+        from { transform: scale(0) translateY(100px);}
+        to   { transform: scale(1) translateY(0);}
+      }
+  }

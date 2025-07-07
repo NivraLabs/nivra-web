@@ -1,6 +1,7 @@
 import nivra_vote from '../assets/NIVRA VOTE.png';
 import nivra_team from '../assets/Nivra team.png';
 import FadeIn from '../components/FadeIn';
+import ScrollAnimated from '../components/ScrollAnimated';
 import './About.css';
 
 
@@ -125,9 +126,9 @@ export default function About() {
         <div class="team-slide">
           <div class="team-slide-body">
             <h2 class="head-3-white">Team</h2>
-            <FadeIn>
+            <ScrollAnimated>
             <img class="team-img" src={nivra_team} />
-            </FadeIn>
+            </ScrollAnimated>
             <p class="text-white">Nivra is steered by a Nordic team of passionate blockchain experts. United by the goal of re-imagining dispute resolution, we fuse Web3 engineering, AI research, game-theoretic economics and practical arbitration expertise to build a fast, transparent and decentralised court rooted in the Scandinavian ideals of openness, privacy and user-centric design.</p>
           </div>
         </div>
