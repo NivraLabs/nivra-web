@@ -1,4 +1,5 @@
 import nivra_pool from '../assets/NIVRA POOL.png';
+import CircularProgress from '../components/CircularProgress';
 import './NRVToken.css';
 
 
@@ -43,7 +44,61 @@ export default function Docs() {
           <h3 class="head-4 nrv-head">Governance</h3>
           <p class="text nrv-text">NVR acts as the native token for voting on governance proposals.</p>
         </div>
-        
+      </div>
+
+      <div class="nrv-slide">
+        <h2 class="head-3">Tokenomics</h2>
+        <h3 class="head-4">Supply cap. <span class="nvr-highlight">1,000,000,000 $NVR</span></h3>
+        <div class="nvr-card-display">
+          <div class="nvr-card">
+            <CircularProgress percent={35} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">350,000,000</span> / 1,000,000,000 (35%)</h3>
+              <p class="text nrv-text">Community reserve.</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <CircularProgress percent={20} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">200,000,000</span> / 1,000,000,000 (20%)</h3>
+              <p class="text nrv-text">Team and advisors.</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <CircularProgress percent={15} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15%)</h3>
+              <p class="text nrv-text">Initial dex offering (IDO).</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <CircularProgress percent={15} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15%)</h3>
+              <p class="text nrv-text">Private investors.</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <CircularProgress percent={10} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> / 1,000,000,000 (10%)</h3>
+              <p class="text nrv-text">Initial liquidity.</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <CircularProgress percent={5} size={90} animationDuration={2000}/>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">50,000,000</span> / 1,000,000,000 (5%)</h3>
+              <p class="text nrv-text">Marketing and launchpool.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
   );
