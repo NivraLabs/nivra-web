@@ -1,4 +1,4 @@
-import logo from '../assets/nivra_logo.svg';
+import logo from '../assets/NIVRALOGO (1).png';
 import nivra from '../assets/nivra.svg';
 import './NavBar.css';
 import MobileMenu from './MobileMenu';
