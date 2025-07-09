@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       <div class="f-copyright">
         <div class="f-logo">
-          <img src={logo} alt="logo"/>
+          <img class="footer-logo" src={logo} alt="logo"/>
           <img src={nivra} alt="nivra"/>
         </div>
       </div>
