@@ -17,6 +17,9 @@ a, button {
   all: unset;
 }
 
+.no-wrap {
+  white-space:nowrap;
+}
 
 .heading-1 {
   color: white;
@@ -99,6 +102,11 @@ a, button {
 .text {
   color: rgba(0, 0, 31, 0.8);
   font-size: 20px;
+}
+
+.text-4 {
+  color: rgba(0, 0, 31, 0.8);
+  font-size: 1.5rem;
 }
 
 .text-white {

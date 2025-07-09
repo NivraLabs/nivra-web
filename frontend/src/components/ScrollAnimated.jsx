@@ -11,7 +11,7 @@ function ScrollAnimated(props) {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           // Element has entered the viewport, trigger the animation
-          entry.target.classList.add("animate-slide-up");
+          entry.target.classList.add("slide-up");
           // If you want to use the fade+scale animation instead:
           //entry.target.classList.add("animate-fade-scale");
           

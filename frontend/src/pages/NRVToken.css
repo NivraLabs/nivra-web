@@ -70,7 +70,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
-  gap: 30px;
+  gap: 50px;
 }
 
 .nvr-card {
@@ -125,6 +125,7 @@
 
     .nvr-card-display {
       grid-template-columns: 1fr;
+      gap: 30px;
     }
 }
 

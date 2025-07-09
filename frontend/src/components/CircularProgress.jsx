@@ -19,7 +19,6 @@ export default function CircularProgress(props) {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          console.log("intersecting")
           const offset = ((100 - percent) / 100) * circumference;
           setDashOffset(offset);
           observer.disconnect(); // Trigger only once
