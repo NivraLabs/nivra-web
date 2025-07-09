@@ -67,7 +67,7 @@ ul {
 }
 
 .roadmap-list {
-  width: 400px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -121,5 +121,16 @@ ul {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+  .roadmap-tree-fork, 
+  .roadmap-fork-right  {
+    width: 100px;
+  }
+
+  .roadmap-list {
+    width: 250px;
   }
 }
