@@ -1,4 +1,4 @@
-import { onMount } from 'solid-js';
+import { onCleanup, onMount } from 'solid-js';
 import ScrollAnimated from '../components/ScrollAnimated';
 import './Roadmap.css';
 
