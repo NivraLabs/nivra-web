@@ -39,7 +39,6 @@ export default function Roadmap() {
             <ul class="roadmap-list">
               <li class="text-4">Incorporate the company</li>
               <li class="text-4">Form the core team</li>
-              <li class="text-4">Form the core team</li>
               <li class="text-4">Kick off social media</li>
               <li class="text-4">Launch GitHub</li>
               <li class="text-4">Define tokenomics</li>
@@ -118,7 +117,6 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2025 Q3</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">Incorporate the company</li>
-              <li class="text-4">Form the core team</li>
               <li class="text-4">Form the core team</li>
               <li class="text-4">Kick off social media</li>
               <li class="text-4">Launch GitHub</li>
