@@ -34,17 +34,12 @@ export default function Home() {
 
       <CardSlider 
         cards={[
-          <p class="text">The global economy is rapidly shifting online. <br/>As value migrates to blockchains, 
-          smart contracts now manage treasuries, escrows, royalties, and entire supply chains.<br/>
-          Although they execute exactly as coded, 
-          the disputes that arise demand a new breed of resolution.</p>,
-          <p class="text">Nivra integrates a tamper-proof arbitration layer directly into Sui smart contracts.<br/> 
-          The protocol can swiftly issue a cryptographically verifiable ruling, redistribute funds, 
-          and complete the process quickly, securely, and in a decentralized manner.<br/> 
-          All evidence, votes, and verdicts remain on-chain for anyone to audit.</p>
+          <p class="text">The global economy is rapidly migrating to blockchains and smart contracts. <br/>Disputes in smart contracts demand a new form of dispute 
+          resolution, which Nivra provides.</p>,
+          <p class="text">Nivra offers a decentralized arbitration protocol for Sui Network’s smart contracts. <br/>This enables disputes to be resolved quickly, transparently, and securely.<br/> </p>
         ]}
         imgs={[nivra_p17,img_4220]} 
-        title="Fast, Tamper-Proof Arbitration for Sui Smart Contracts"
+        title="Arbitration Protocol for On-Chain Disputes"
       />
 
       <div class="desc-slide-2">
