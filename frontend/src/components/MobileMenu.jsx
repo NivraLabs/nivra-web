@@ -33,7 +33,7 @@ function MobileMenu() {
             <a href="/documentation" class="nav-link" onClick={handleNavClick}>Docs</a>
             <a href="/roadmap" class="nav-link" onClick={handleNavClick}>Roadmap</a>
             <a href="/about" class="nav-link" onClick={handleNavClick}>About</a>
-            <a href="/nrv-token" class="nav-link" onClick={handleNavClick}>NRV Token</a>
+            <a href="/nvr-token" class="nav-link" onClick={handleNavClick}>NVR Token</a>
             <a href="/join" class="nav-link" onClick={handleNavClick}>Join us</a>
           </nav>
         </div>

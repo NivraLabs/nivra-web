@@ -19,7 +19,7 @@ export default function NavBar() {
           <a href="/documentation" class="nav-link">Docs</a>
           <a href="/roadmap" class="nav-link">Roadmap</a>
           <a href="/about" class="nav-link">About</a>
-          <a href="/nrv-token" class="nav-link">NRV Token</a>
+          <a href="/nvr-token" class="nav-link">NVR Token</a>
           <a href="/join" class="nav-link">Join us</a>
         </nav>
         <MobileMenu />
