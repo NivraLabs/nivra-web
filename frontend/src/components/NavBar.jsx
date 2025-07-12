@@ -2,6 +2,7 @@ import logo from '../assets/NIVRALOGO (1).png';
 import nivra from '../assets/nivra.svg';
 import './NavBar.css';
 import MobileMenu from './MobileMenu';
+import JoinUsButton from './JoinUsButton';
 
 
 export default function NavBar() {
@@ -20,7 +21,7 @@ export default function NavBar() {
           <a href="/roadmap" class="nav-link">Roadmap</a>
           <a href="/about" class="nav-link">About</a>
           <a href="/nvr-token" class="nav-link">NVR Token</a>
-          <a href="/join" class="nav-link">Join us</a>
+          <JoinUsButton />
         </nav>
         <MobileMenu />
       </div>

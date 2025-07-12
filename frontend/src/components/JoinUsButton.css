@@ -1,0 +1,35 @@
+.join-container {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.collapse-menu-join {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-icon {
+  width: 30px;
+  height: auto;
+}
+
+@media only screen and (max-width : 768px) {
+  .collapse-menu-join {
+    position: initial;
+    box-shadow: none;
+    margin-top: 5px;
+    color: white;
+    background-color: rgba(0, 0, 31, 0.8);
+  }
+
+  .join-us-link {
+    font-size: 15px;
+  }
+}

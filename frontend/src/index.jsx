@@ -26,6 +26,5 @@ render(() => (
     <Route path="/roadmap" component={Roadmap} />
     <Route path="/about" component={About} />
     <Route path="/nvr-token" component={NRVToken} />
-    <Route path="/join" component={JoinUs} />
   </Router>
 ), root);

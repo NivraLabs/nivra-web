@@ -1,8 +1,8 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
 import menu from '../assets/menu.svg';
-import JoinUsButton from "./JoinUsButton";
+import './JoinUsButton.css';
 
-function MobileMenu() {
+function JoinUsButton() {
   const [isOpen, setIsOpen] = createSignal(false);
   let menuRef;
 
@@ -25,17 +25,15 @@ function MobileMenu() {
   const handleNavClick = () => setIsOpen(false);
 
   return (
-    <div class="nav-menu-mobile" ref={menuRef}>
-      <img class="hb-menu-icon" src={menu} onClick={toggleMenu} alt="menu" />
+    <div class="join-container" ref={menuRef}>
+      <a class={isOpen() ? "nav-link nav-link-active" : "nav-link"} onClick={toggleMenu}>Join Us</a>
 
       {isOpen() && (
         <div>
-          <nav class="collapse-menu">
-            <a href="/documentation" class="nav-link" onClick={handleNavClick}>Docs</a>
-            <a href="/roadmap" class="nav-link" onClick={handleNavClick}>Roadmap</a>
-            <a href="/about" class="nav-link" onClick={handleNavClick}>About</a>
-            <a href="/nvr-token" class="nav-link" onClick={handleNavClick}>NVR Token</a>
-            <JoinUsButton />
+          <nav class="collapse-menu-join">
+            <a class="nav-link join-us-link">Discord</a>
+            <a class="nav-link join-us-link">x</a>
+            <a href="https://github.com/NivraLabs" class="nav-link join-us-link">Github</a>
           </nav>
         </div>
       )}
@@ -43,4 +41,4 @@ function MobileMenu() {
   );
 }
 
-export default MobileMenu;
+export default JoinUsButton;
