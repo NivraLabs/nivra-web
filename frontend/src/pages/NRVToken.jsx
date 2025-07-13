@@ -1,4 +1,4 @@
-import nivra_pool from '../assets/NIVRA POOL.png';
+import nivra_court from '../assets/IMG_5043.png';
 import CircularProgress from '../components/CircularProgress';
 import './NRVToken.css';
 
@@ -8,7 +8,7 @@ export default function Docs() {
     <div class="nrv-wrapper">
       <div class="nrv-slide">
         <h2 class="head-3 hero-title">NVR Token</h2>
-        <img class="hero-image nrv-img" src={nivra_pool} />
+        <img class="hero-image nrv-img" src={nivra_court} />
         <h3 class="head-4">The NVR Token is a central element of Nivra, serving multiple essential functions.</h3>
       </div>
       <div class="nrv-slide-w">
