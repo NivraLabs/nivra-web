@@ -2,6 +2,7 @@ import { createSignal, onCleanup, onMount } from 'solid-js';
 
 export default function CircularProgress(props) {
   const {
+    start = 0,
     percent = 75,
     size = 120,
     strokeWidth = 10,
@@ -61,7 +62,7 @@ export default function CircularProgress(props) {
         stroke-dasharray={circumference}
         stroke-dashoffset={dashOffset()}
         stroke-linecap="round"
-        transform={`rotate(-90 ${center} ${center})`}
+        transform={`rotate(${-90 + (start * 3.6)} ${center} ${center})`}
         style={{
           transition: `stroke-dashoffset ${animationDuration}ms ease`
         }}

@@ -51,7 +51,7 @@ export default function Docs() {
         <h3 class="head-4">Supply cap. <span class="nvr-highlight">1,000,000,000 $NVR</span></h3>
         <div class="nvr-card-display">
           <div class="nvr-card">
-            <CircularProgress percent={35} size={90} animationDuration={2000}/>
+            <CircularProgress start={0} percent={35} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">350,000,000</span> / 1,000,000,000 (35%)</h3>
               <p class="text nrv-text">Community reserve.</p>
@@ -59,7 +59,7 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress percent={20} size={90} animationDuration={2000}/>
+            <CircularProgress start={35} percent={20} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">200,000,000</span> / 1,000,000,000 (20%)</h3>
               <p class="text nrv-text">Team and advisors.</p>
@@ -67,7 +67,7 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress percent={15} size={90} animationDuration={2000}/>
+            <CircularProgress start={55} percent={15} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15%)</h3>
               <p class="text nrv-text">Initial dex offering (IDO).</p>
@@ -75,7 +75,7 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress percent={15} size={90} animationDuration={2000}/>
+            <CircularProgress start={70} percent={15} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15%)</h3>
               <p class="text nrv-text">Private investors.</p>
@@ -83,7 +83,7 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress percent={10} size={90} animationDuration={2000}/>
+            <CircularProgress start={85} percent={10} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> / 1,000,000,000 (10%)</h3>
               <p class="text nrv-text">Initial liquidity.</p>
@@ -91,7 +91,7 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress percent={5} size={90} animationDuration={2000}/>
+            <CircularProgress start={95} percent={5} size={90} animationDuration={2000}/>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">50,000,000</span> / 1,000,000,000 (5%)</h3>
               <p class="text nrv-text">Marketing and launchpool.</p>
