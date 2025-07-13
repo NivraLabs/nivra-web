@@ -1,5 +1,4 @@
 import { createSignal, onCleanup, onMount } from "solid-js";
-import menu from '../assets/menu.svg';
 import './JoinUsButton.css';
 
 function JoinUsButton() {

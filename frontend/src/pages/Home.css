@@ -141,6 +141,7 @@
   height: auto;
   width: 100%;
   max-width: 100px;
+  object-fit: contain;
 }
 
 .nivra-g-2,
