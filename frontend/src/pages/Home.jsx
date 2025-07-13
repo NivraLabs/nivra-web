@@ -34,9 +34,9 @@ export default function Home() {
 
       <CardSlider 
         cards={[
-          <p class="text">The global economy is rapidly migrating to blockchains and smart contracts. <br/>Disputes in smart contracts demand a new form of dispute 
+          <p class="text">The global economy is rapidly migrating to blockchains and smart contracts. Disputes in smart contracts demand a new form of dispute 
           resolution, which Nivra provides.</p>,
-          <p class="text">Nivra offers a decentralized arbitration protocol for Sui Network’s smart contracts. <br/>This enables disputes to be resolved quickly, transparently, and securely.<br/> </p>
+          <p class="text">Nivra offers a decentralized arbitration protocol for Sui Network’s smart contracts. This enables disputes to be resolved quickly, transparently, and securely.<br/> </p>
         ]}
         imgs={[nivra_p17,img_4220]} 
         title="Arbitration Protocol for On-Chain Disputes"
