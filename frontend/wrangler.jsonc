@@ -1,0 +1,7 @@
+{
+    "name": "nivra-web",
+    "compatibility_date": "2025-07-13",
+    "assets": {
+        "directory": "./dist"
+    }
+}
