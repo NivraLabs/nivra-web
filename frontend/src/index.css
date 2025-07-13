@@ -99,6 +99,12 @@ a, button {
   color: rgb(81, 182, 244);
 }
 
+.pre-heading-4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(81, 182, 244);
+}
+
 .text {
   color: rgba(0, 0, 31, 0.8);
   font-size: 20px;
