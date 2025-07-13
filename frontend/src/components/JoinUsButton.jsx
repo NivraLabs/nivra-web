@@ -31,8 +31,8 @@ function JoinUsButton() {
       {isOpen() && (
         <div>
           <nav class="collapse-menu-join">
-            <a class="nav-link join-us-link">Discord</a>
-            <a class="nav-link join-us-link">x</a>
+            <a href="https://discord.gg/MpZcfEAW" class="nav-link join-us-link">Discord</a>
+            <a href="https://x.com/nivracourt?s=21" class="nav-link join-us-link">x</a>
             <a href="https://github.com/NivraLabs" class="nav-link join-us-link">Github</a>
           </nav>
         </div>
