@@ -72,7 +72,7 @@ export default function About() {
       <div class="mission-wrapper">
         <div class="mission-slide">
           <h2 class="head-3-white">Our Mission</h2>
-          <p class="text-white">Democratizing justice through a decentralized hybrid court that delivers fast, fair, transparent dispute resolution, empowering anyone to settle conflicts securely and affordably.</p>
+          <p class="text-white">We provide transparent, unbiased dispute resolution for all, regardless of location or status, ensuring equitable, decentralized justice built on trust.</p>
 
           <FadeIn>
             <img class="mission-img" src={nivra_vote} />
