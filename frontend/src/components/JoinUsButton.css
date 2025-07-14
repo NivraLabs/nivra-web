@@ -28,6 +28,10 @@
 }
 
 .nav-link-icon {
+  color: black;
+}
+
+.x-icon {
   color: white;
 }
 
@@ -45,6 +49,10 @@
   }
 
   .nav-link-icon {
-    color: rgba(0, 0, 31, 0.8);
+    color: white;
+  }
+
+  .x-icon {
+    color: black;
   }
 }
