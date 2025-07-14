@@ -51,7 +51,7 @@
 }
 
 .nrv-head {
-  align-self: center;
+  align-self: flex-start;
 }
 
 .nrv-img {
