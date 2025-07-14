@@ -51,7 +51,9 @@ export default function Docs() {
         <h3 class="head-4">Supply cap. <span class="nvr-highlight">1,000,000,000 $NVR</span></h3>
         <div class="nvr-card-display">
           <div class="nvr-card">
-            <CircularProgress start={0} percent={35} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+            <CircularProgress start={0} percent={35} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">350,000,000</span> / 1,000,000,000 (35 %)</h3>
               <p class="text nrv-text">Treasury</p>
@@ -61,7 +63,9 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress start={35} percent={20} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+              <CircularProgress start={35} percent={20} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">200,000,000</span> / 1,000,000,000 (20 %)</h3>
               <p class="text nrv-text">Team and Advisors</p>
@@ -71,7 +75,9 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress start={55} percent={15} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+              <CircularProgress start={55} percent={15} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15 %)</h3>
               <p class="text nrv-text">Initial Dex Offering (IDO)</p>
@@ -81,7 +87,9 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress start={70} percent={15} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+              <CircularProgress start={70} percent={15} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> / 1,000,000,000 (15 %)</h3>
               <p class="text nrv-text">Private Investors</p>
@@ -91,7 +99,9 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress start={85} percent={10} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+              <CircularProgress start={85} percent={10} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> / 1,000,000,000 (10 %)</h3>
               <p class="text nrv-text">Initial Liquidity</p>
@@ -101,7 +111,9 @@ export default function Docs() {
           </div>
 
           <div class="nvr-card">
-            <CircularProgress start={95} percent={3} size={90} animationDuration={2000}/>
+            <div class="circular-progress">
+              <CircularProgress start={95} percent={3} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">30,000,000</span> / 1,000,000,000 (3 %)</h3>
               <p class="text nrv-text">Marketing</p>
@@ -110,8 +122,10 @@ export default function Docs() {
             </div>
           </div>
 
-                    <div class="nvr-card">
-            <CircularProgress start={98} percent={2} size={90} animationDuration={2000}/>
+          <div class="nvr-card">
+            <div class="circular-progress">
+              <CircularProgress start={98} percent={2} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">20,000,000</span> / 1,000,000,000 (2 %)</h3>
               <p class="text nrv-text">Launchpool</p>
