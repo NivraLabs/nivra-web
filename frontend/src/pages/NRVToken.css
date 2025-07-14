@@ -37,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+  max-width: calc(100% - 60px);
 }
 
 .nrv-wrap {
