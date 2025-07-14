@@ -20,6 +20,17 @@
   height: auto;
 }
 
+.join-us,
+.join-us-link {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav-link-icon {
+  color: white;
+}
+
 @media only screen and (max-width : 768px) {
   .collapse-menu-join {
     position: initial;
@@ -31,5 +42,9 @@
 
   .join-us-link {
     font-size: 15px;
+  }
+
+  .nav-link-icon {
+    color: rgba(0, 0, 31, 0.8);
   }
 }
