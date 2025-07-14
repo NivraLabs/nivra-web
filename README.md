@@ -1,13 +1,11 @@
 ## Requirements
-- [Node.js 18](https://nodejs.org/en)
+- [Node.js 18+](https://nodejs.org/en)
 
-## Usage
+## Installation
 
-Install project dependecies:
+Install project dependencies:
 
-```bash
-$ npm install
-```
+### `npm install`
 
 ## Available Scripts
 
@@ -24,10 +22,3 @@ The page will reload if you make edits.<br>
 
 Builds the app for production to the `dist` folder.<br>
 It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
