@@ -207,6 +207,7 @@
   .g-card {
     padding: 5px;
     height: calc(100% - 10px);
+    max-height: 150px;
   }
 
   .g-icon {
