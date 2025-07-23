@@ -17,7 +17,7 @@ export default function About() {
           <p class="text-black">The absence of a truly decentralized arbitration layer undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
 
           <div class="problem-wrapper">
-          <h3 class="head-4">Problems with traditional arbitration</h3>
+          <h3 class="head-4-c">Problems with traditional arbitration</h3>
 
           <div class="mission-body">
 
@@ -74,7 +74,7 @@ export default function About() {
           </div>
 
           <div class="problem-wrapper">
-          <h3 class="head-4">Why Web3 Needs Decentralized Arbitration</h3>
+          <h3 class="head-4-c">Why Web3 Needs Decentralized Arbitration</h3>
 
           <div class="mission-body">
 
