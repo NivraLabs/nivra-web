@@ -22,7 +22,7 @@ export default function FadeIn(props) {
   });
 
   return (
-    <div ref={el => (ref = el)} class="fade-in">
+    <div ref={el => (ref = el)} class={`fade-in ${props.class}`}>
       {props.children}
     </div>
   );

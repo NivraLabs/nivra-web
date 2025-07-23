@@ -77,55 +77,34 @@ export default function About() {
           <h3 class="head-4-c">Why Web3 Needs Decentralized Arbitration</h3>
 
           <div class="mission-body">
+          
+          <FadeIn class="mission-card">
+            <p class="text">The absence of decentralized arbitration limits dApps’ potential, as various dispute scenarios cannot be resolved.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">The absence of decentralized arbitration limits dApps’ potential, as various dispute scenarios cannot be resolved.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Traditional dispute‑resolution processes fail to meet blockchain’s demand for rapid, low‑cost arbitration.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Traditional dispute‑resolution processes fail to meet blockchain’s demand for rapid, low‑cost arbitration.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Unpredictable dispute costs inflate risk premiums and force overcharging or underdelivering.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Unpredictable dispute costs inflate risk premiums and force overcharging or underdelivering.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Fragmented dispute solutions isolate projects and hinder interoperability through proprietary or centralized mechanisms.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Fragmented dispute solutions isolate projects and hinder interoperability through proprietary or centralized mechanisms.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Diminished user confidence, with end users reluctant to commit assets when conflict resolution is unclear.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Diminished user confidence, with end users reluctant to commit assets when conflict resolution is unclear.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Arbitration backdoors such as kill‑switch mechanisms or privileged admin rights reintroduce centralization, running counter to blockchain principles.</p>
+          </FadeIn>
 
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Arbitration backdoors such as kill‑switch mechanisms or privileged admin rights reintroduce centralization, running counter to blockchain principles.</p>
-          </div>
-
-          <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
-              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-            </svg>
-            <p class="text exp-head">Inhibited innovation and collaboration, as the lack of a shared arbitration layer discourages modular design and cross‑team development.</p>
-          </div>
+          <FadeIn class="mission-card">
+            <p class="text">Inhibited innovation and collaboration, as the lack of a shared arbitration layer discourages modular design and cross‑team development.</p>
+          </FadeIn>
 
           </div>
           </div>
