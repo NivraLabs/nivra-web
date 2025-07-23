@@ -129,7 +129,8 @@ export default function About() {
             <ScrollAnimated>
             <img class="team-img" src={nivra_team} />
             </ScrollAnimated>
-            <p class="text-white">Nivra is steered by a Nordic team of passionate blockchain experts. United by the goal of re-imagining dispute resolution, we fuse Web3 engineering, AI research, game-theoretic economics and practical arbitration expertise to build a fast, transparent and decentralised court rooted in the Scandinavian ideals of openness, privacy and user-centric design.</p>
+            <p class="text-white">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of re‑imagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralised arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.
+<br> </br>Leveraging our solid background in Rust, whose ownership and resource‑safety model closely mirrors Move, we found it a breeze to begin Nivra’s journey on Sui.</p>
           </div>
         </div>
       </div>
