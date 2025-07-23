@@ -57,6 +57,13 @@
   align-self: center;
 }
 
+.icon-m {
+  min-width: 20px;
+  width: 20px;
+  height: auto;
+  color: #473a87;
+}
+
 .exp-head {
   align-self: center;
 }

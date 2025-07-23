@@ -22,49 +22,49 @@ export default function About() {
           <div class="mission-body">
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Slow and expensive dispute‑resolution processes create high barriers to participation for individuals and small entities, and render resolving minor disputes unprofitable.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Dependence on third parties and the need to trust centralized bodies creates single points of failure and undermines neutrality.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Lack of transparency and difficulty monitoring the process in real time hinders accountability.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Centralized maintenance and updates prevent rapid adaptation to evolving needs.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Potential for bias or conflicts of interest in appointments and decision making erodes trust.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Jurisdictional and legal challenges in cross‑border disputes complicate enforcement.</p>
           </div>
 
           <div class="prob-exp-wrap">
-            <svg class="icon-p" viewBox="0 0 256 256">
+            <svg class="icon-m" viewBox="0 0 256 256">
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <p class="text exp-head">Challenges in follow‑up and enforcement without a reliable decentralized network leave resolutions unresolved.</p>
