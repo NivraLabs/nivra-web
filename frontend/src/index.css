@@ -126,6 +126,12 @@ a, button {
   font-size: 1.5rem;
 }
 
+.text-black {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width : 768px) {
   .head-2 {
     font-size: 25px;

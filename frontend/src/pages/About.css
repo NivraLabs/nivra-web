@@ -1,3 +1,4 @@
+.problem-wrapper,
 .team-wrapper,
 .exist-wrapper,
 .mission-wrapper,
@@ -71,6 +72,7 @@
   width: 600px;
 }
 
+.problem-slide,
 .mission-slide {
   gap: 30px;
 }

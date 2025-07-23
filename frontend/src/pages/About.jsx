@@ -13,59 +13,123 @@ export default function About() {
     <>
       <div class="about-wrapper">
         <div class="problem-slide">
-          <h2 class="head-3">Problems with traditional arbitration</h2>
+          <h2 class="head-3">Problem Statement</h2>
+          <p class="text-black">The absence of a truly decentralized arbitration layer undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
 
-          <div class="prob-grid">
+          <div class="problem-wrapper">
+          <h3 class="head-4">Problems with traditional arbitration</h3>
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">It’s centralised</h3>
-              <p class="text exp-text">A single arbitral institution keeps every document, piece of evidence, and procedural decision in one silo.</p>
-            </div>
+          <div class="mission-body">
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">It requires blind trust</h3>
-              <p class="text exp-text">Parties must simply trust that the institution will manage evidence securely and act impartially. There is no cryptographic audit trail or code-enforced guarantee.</p>
-            </div>
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Slow and expensive dispute‑resolution processes create high barriers to participation for individuals and small entities, and render resolving minor disputes unprofitable.</p>
+          </div>
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">It’s expensive</h3>
-              <p class="text exp-text">A handful of dominant institutions set filing, administrative, and tribunal fees, leaving little market pressure to keep costs down.</p>
-            </div>
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Dependence on third parties and the need to trust centralized bodies creates single points of failure and undermines neutrality.</p>
+          </div>
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">It takes a long time</h3>
-              <p class="text exp-text">multi-layered procedures, docket backlogs, and manual case management often mean disputes drag on for months or even years before a final award is issued.</p>
-            </div>
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Lack of transparency and difficulty monitoring the process in real time hinders accountability.</p>
+          </div>
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">You’re not in control</h3>
-              <p class="text exp-text">The institution decides who can access the record, how long it is retained, and can even suspend or withhold an award, leaving parties powerless.</p>
-            </div>
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Centralized maintenance and updates prevent rapid adaptation to evolving needs.</p>
+          </div>
 
-            <div class="prob-exp-wrap">
-              <svg class="icon-p" viewBox="0 0 256 256">
-                <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
-              </svg>
-              <h3 class="head-4 exp-head">It lacks transparency</h3>
-              <p class="text exp-text">Key procedural steps, deliberations, and data policies are typically opaque, making it difficult for parties to audit what happens behind closed doors or to verify that rules are being applied consistently.</p>
-            </div>
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Potential for bias or conflicts of interest in appointments and decision making erodes trust.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Jurisdictional and legal challenges in cross‑border disputes complicate enforcement.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Challenges in follow‑up and enforcement without a reliable decentralized network leave resolutions unresolved.</p>
+          </div>
 
           </div>
+          </div>
+
+          <div class="problem-wrapper">
+          <h3 class="head-4">Why Web3 Needs Decentralized Arbitration</h3>
+
+          <div class="mission-body">
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">The absence of decentralized arbitration limits dApps’ potential, as various dispute scenarios cannot be resolved.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Traditional dispute‑resolution processes fail to meet blockchain’s demand for rapid, low‑cost arbitration.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Unpredictable dispute costs inflate risk premiums and force overcharging or underdelivering.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Fragmented dispute solutions isolate projects and hinder interoperability through proprietary or centralized mechanisms.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Diminished user confidence, with end users reluctant to commit assets when conflict resolution is unclear.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Arbitration backdoors such as kill‑switch mechanisms or privileged admin rights reintroduce centralization, running counter to blockchain principles.</p>
+          </div>
+
+          <div class="prob-exp-wrap">
+            <svg class="icon-p" viewBox="0 0 256 256">
+              <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
+            </svg>
+            <p class="text exp-head">Inhibited innovation and collaboration, as the lack of a shared arbitration layer discourages modular design and cross‑team development.</p>
+          </div>
+
+          </div>
+          </div>
+
         </div>
       </div>
 
@@ -129,8 +193,8 @@ export default function About() {
             <ScrollAnimated>
             <img class="team-img" src={nivra_team} />
             </ScrollAnimated>
-            <p class="text-white">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of re‑imagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.
-<br> </br>Leveraging our solid background in Rust, whose ownership and resource‑safety model closely mirrors Move, we found it a breeze to begin Nivra’s journey on Sui.</p>
+            <p class="text-white-n">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of re‑imagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.</p>
+            <p class="text-white-n">Leveraging our solid background in Rust, whose ownership and resource‑safety model closely mirrors Move, we found it a breeze to begin Nivra’s journey on Sui.</p>
           </div>
         </div>
       </div>
