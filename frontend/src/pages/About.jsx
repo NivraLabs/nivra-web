@@ -113,7 +113,7 @@ export default function About() {
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <h3 class="head-4 exp-head">Justice shouldn’t be gated by cost or bureaucracy</h3>
-            <p class="text exp-text">Traditional courts and arbitral bodies price out small claims and bog parties down in multi-layered procedures. Nivra’s hybrid AI + human model slashes administrative overhead so even micro-disputes can be decided in hours, not months or years.</p>
+            <p class="text exp-text">Traditional courts and arbitral bodies price out small claims and bog parties down in multi-layered procedures. Nivra’s hybrid AI + human model slashes administrative overhead so even micro-disputes can be solved quickly.</p>
           </div>
 
           <div class="prob-exp-wrap">
