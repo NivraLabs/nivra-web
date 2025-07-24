@@ -129,10 +129,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2025 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Conduct smart contract audit</li>
+              <li class="text-4">Publish protocol usage guide for end-users</li>
               <li class="text-4">Private sale</li>
               <li class="text-4">Form strategic partnerships</li>
-              <li class="text-4">Publish protocol usage guide for end-users</li>
               <li class="text-4">Initiate development of smart contracts</li>
               <li class="text-4">Initiate development of protocol integration APIs</li>
             </ul> 
@@ -142,9 +141,10 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q1</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">IDO</li>
               <li class="text-4">Initiate development of CLI and deployment scripts</li>
               <li class="text-4">Initiate development of protocol data indexer</li>
+              <li class="text-4">Token smart contract audit</li>
+              <li class="text-4">IDO</li>
               <li class="text-4">Initiate development of developer SDKs and integration libraries</li>
             </ul> 
           </div>
