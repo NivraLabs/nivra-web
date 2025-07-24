@@ -12,8 +12,6 @@
   background-size: cover;
   background-position: center center;
 
-  animation: intro-animation linear;
-  animation-timeline: view(0px 600px);
 }
 
 @keyframes intro-animation {
