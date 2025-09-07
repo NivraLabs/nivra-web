@@ -56,7 +56,7 @@ export default function Docs() {
             </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">350,000,000</span> (35 %)</h3>
-              <p class="text nrv-text">Treasury</p>
+              <p class="text nrv-text">Community Reserve</p>
               <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research, incentives)</p>
               <p class="text nvr-text">• Vesting: linear release over 60 months</p>
             </div>
@@ -76,24 +76,24 @@ export default function Docs() {
 
           <div class="nvr-card">
             <div class="circular-progress">
-              <CircularProgress start={58} percent={15} size={75} strokeWidth={9} animationDuration={2000}/>
+              <CircularProgress start={58} percent={10} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> (15 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
               <p class="text nrv-text">Initial Dex Offering (IDO)</p>
               <p class="text nvr-text">• Public sale to bootstrap decentralization</p>
-              <p class="text nvr-text">• Release: 100 % at TGE</p>
+              <p class="text nvr-text">• No vesting</p>
             </div>
           </div>
 
           <div class="nvr-card">
             <div class="circular-progress">
-              <CircularProgress start={73} percent={15} size={75} strokeWidth={9} animationDuration={2000}/>
+              <CircularProgress start={68} percent={20} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">150,000,000</span> (15 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">200,000,000</span> (20 %)</h3>
               <p class="text nrv-text">Private Investors</p>
-              <p class="text nvr-text">• Seed & strategic backer</p>
+              <p class="text nvr-text">• Seed & strategic backers</p>
               <p class="text nvr-text">• Vesting: 3-month cliff, then linear release over 12 months</p>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
               <p class="text nrv-text">Initial Liquidity</p>
               <p class="text nvr-text">• Liquidity provision for DEX pools</p>
-              <p class="text nvr-text">• Release: no vesting </p>
+              <p class="text nvr-text">• Release: No vesting </p>
             </div>
           </div>
 
