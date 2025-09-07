@@ -28,7 +28,7 @@ export default function Footer() {
       <p class="pre-heading-4">contact@nivracourt.io</p>
       </div>
       <div>
-        <p class="copyright-text">© 2025 Nivra Labs. All Rights Reserved.</p>
+        <p class="copyright-text">© 2025 Nivra Labs Ltd. All Rights Reserved.</p>
       </div>
     </footer>
   );
