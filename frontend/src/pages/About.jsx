@@ -14,7 +14,7 @@ export default function About() {
       <div class="about-wrapper">
         <div class="problem-slide">
           <h2 class="head-3">Problem Statement</h2>
-          <p class="text-black">The absence of a truly decentralized arbitration layer undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
+          <p class="text-black">The absence of a truly decentralized arbitration protocol undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
 
           <div class="problem-wrapper">
           <h3 class="head-4-c">Problems with traditional arbitration</h3>
@@ -49,6 +49,10 @@ export default function About() {
             <p class="text">Challenges in follow‑up and enforcement without a reliable decentralized network leave resolutions unresolved.</p>
           </FadeIn>
 
+          <FadeIn class="mission-card">
+            <p class="text">Unpredictable dispute costs inflate risk premiums and force overcharging or underdelivering.</p>
+          </FadeIn>
+
           </div>
           </div>
 
@@ -62,11 +66,7 @@ export default function About() {
           </FadeIn>
 
           <FadeIn class="mission-card">
-            <p class="text">Traditional dispute‑resolution processes fail to meet blockchain’s demand for rapid, low‑cost arbitration.</p>
-          </FadeIn>
-
-          <FadeIn class="mission-card">
-            <p class="text">Unpredictable dispute costs inflate risk premiums and force overcharging or underdelivering.</p>
+            <p class="text">Traditional dispute resolution processes fail to meet blockchain’s demand for rapid, low‑cost arbitration.</p>
           </FadeIn>
 
           <FadeIn class="mission-card">
@@ -78,11 +78,11 @@ export default function About() {
           </FadeIn>
 
           <FadeIn class="mission-card">
-            <p class="text">Arbitration backdoors such as kill‑switch mechanisms or privileged admin rights reintroduce centralization, running counter to blockchain principles.</p>
+            <p class="text">Arbitration backdoors such as killswitch mechanisms or privileged admin rights reintroduce centralization, running counter to blockchain principles.</p>
           </FadeIn>
 
           <FadeIn class="mission-card">
-            <p class="text">Inhibited innovation and collaboration, as the lack of a shared arbitration layer discourages modular design and cross‑team development.</p>
+            <p class="text">Inhibited innovation and collaboration, as the lack of a shared arbitration protocol discourages modular design and cross‑team development.</p>
           </FadeIn>
 
           </div>
@@ -94,7 +94,7 @@ export default function About() {
       <div class="mission-wrapper">
         <div class="mission-slide">
           <h2 class="head-3-white">Our Mission</h2>
-          <p class="text-white">We provide transparent, unbiased dispute resolution for all, regardless of location or status, ensuring equitable, decentralized justice built on trust.</p>
+          <p class="text-white">We provide transparent, unbiased dispute resolution for all, regardless of location or status, ensuring equitable, decentralized justice.</p>
 
           <FadeIn>
             <img class="mission-img" src={nivra_vote} />
@@ -113,7 +113,7 @@ export default function About() {
               <path fill="currentColor" d="M232,128A104,104,0,1,1,128,24,104.12041,104.12041,0,0,1,232,128Z"/>
             </svg>
             <h3 class="head-4 exp-head">Justice shouldn’t be gated by cost or bureaucracy</h3>
-            <p class="text exp-text">Traditional courts and arbitral bodies price out small claims and bog parties down in multi-layered procedures. Nivra’s hybrid AI + human model slashes administrative overhead so even micro-disputes can be solved quickly.</p>
+            <p class="text exp-text">Traditional courts and arbitral bodies price out small claims and bog parties down in multilayered procedures. Nivra’s hybrid AI + human model slashes administrative overhead so even micro-disputes can be solved quickly.</p>
           </div>
 
           <div class="prob-exp-wrap">
@@ -151,7 +151,7 @@ export default function About() {
             <ScrollAnimated>
             <img class="team-img" src={nivra_team} />
             </ScrollAnimated>
-            <p class="text-white-n">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of re‑imagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.</p>
+            <p class="text-white-n">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of reimagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.</p>
             <p class="text-white-n">Leveraging our solid background in Rust, whose ownership and resource‑safety model closely mirrors Move, we found it a breeze to begin Nivra’s journey on Sui.</p>
           </div>
         </div>
