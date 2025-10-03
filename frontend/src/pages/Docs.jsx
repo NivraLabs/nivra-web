@@ -1,6 +1,5 @@
 import './Docs.css';
 
-
 export default function Docs() {
   return(
     <div class="doc-wrapper">
@@ -13,7 +12,7 @@ export default function Docs() {
           </div>
           <div class="wp-textblock">
             <h2 class="head-2">White Paper</h2>
-            <p class="text">Coming soon..</p>
+            <a href="https://static.nivracourt.io/white-paper-nivra.pdf" class="o-btn">Open</a>
           </div>
         </div>
       </div>
