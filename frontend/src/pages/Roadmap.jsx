@@ -51,10 +51,12 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2025 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Demo</li>
-              <li class="text-4">Pre-seed</li>
+              <li class="text-4">Initiate development of mobile/web UI/UX</li>
               <li class="text-4">Initiate development of smart contracts</li>
               <li class="text-4">Initiate development of protocol integration APIs</li>
+              <li class="text-4">Governance</li>
+              <li class="text-4">Demo</li>
+              <li class="text-4">Pre-seed</li>
             </ul> 
           </div>
 
@@ -64,13 +66,11 @@ export default function Roadmap() {
               <div class="roadmap-tree-fork"></div>
             </div>
             <ul class="roadmap-list">
-              <li class="text-4">Initiate development of CLI and deployment scripts</li>
               <li class="text-4">Private sale</li>
-              <li class="text-4">Initiate development of protocol data indexer</li>
-              <li class="text-4">Token smart contract audit</li>
-              <li class="text-4">IDO</li>
               <li class="text-4">Initiate development of developer SDKs and integration libraries</li>
               <li class="text-4">Publish protocol usage guide for end-users</li>
+              <li class="text-4">Token smart contract audit</li>
+              <li class="text-4">IDO</li>
             </ul> 
           </div>
 
@@ -78,10 +78,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q2</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Initiate development of mobile/web UI</li>
               <li class="text-4">Publish developer integration guide for embedding the arbitration protocol</li>
               <li class="text-4">Launch testnet</li>
-              <li class="text-4">Conduct UX/UI workshop and feedback round</li>
+              <li class="text-4">Fix bugs and make adjustments</li>
             </ul> 
           </div>
 
@@ -91,7 +90,6 @@ export default function Roadmap() {
               <div class="roadmap-tree-fork"></div>
             </div>
             <ul class="roadmap-list">
-              <li class="text-4">Fix bugs and make adjustments</li>
               <li class="text-4">Conduct smart contract audits</li>
               <li class="text-4">Launch mainnet</li>
               <li class="text-4">Initiate bug bounty program</li>
@@ -103,7 +101,7 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2026 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">AI Agents as Nivsters</li>
-              <li class="text-4">Governance</li>
+              <li class="text-4">Secret cases</li>
             </ul> 
           </div>
 
@@ -130,10 +128,12 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2025 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Demo</li>
-              <li class="text-4">Pre-seed</li>
+              <li class="text-4">Initiate development of mobile/web UI/UX</li>
               <li class="text-4">Initiate development of smart contracts</li>
               <li class="text-4">Initiate development of protocol integration APIs</li>
+              <li class="text-4">Governance</li>
+              <li class="text-4">Demo</li>
+              <li class="text-4">Pre-seed</li>
             </ul> 
           </div>
 
@@ -141,13 +141,11 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q1</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Initiate development of CLI and deployment scripts</li>
               <li class="text-4">Private sale</li>
-              <li class="text-4">Initiate development of protocol data indexer</li>
-              <li class="text-4">Token smart contract audit</li>
-              <li class="text-4">IDO</li>
               <li class="text-4">Initiate development of developer SDKs and integration libraries</li>
               <li class="text-4">Publish protocol usage guide for end-users</li>
+              <li class="text-4">Token smart contract audit</li>
+              <li class="text-4">IDO</li>
             </ul> 
           </div>
 
@@ -155,10 +153,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q2</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Initiate development of mobile/web UI</li>
               <li class="text-4">Publish developer integration guide for embedding the arbitration protocol</li>
               <li class="text-4">Launch testnet</li>
-              <li class="text-4">Conduct UX/UI workshop and feedback round</li>
+              <li class="text-4">Fix bugs and make adjustments</li>
             </ul> 
           </div>
 
@@ -166,7 +163,6 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q3</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Fix bugs and make adjustments</li>
               <li class="text-4">Conduct smart contract audits</li>
               <li class="text-4">Launch mainnet</li>
               <li class="text-4">Initiate bug bounty program</li>
@@ -178,7 +174,7 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2026 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">AI Agents as Nivsters</li>
-              <li class="text-4">Governance</li>
+              <li class="text-4">Secret cases</li>
             </ul> 
           </div>
 
