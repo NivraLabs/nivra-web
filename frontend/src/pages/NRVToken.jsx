@@ -52,34 +52,34 @@ export default function Docs() {
         <div class="nvr-card-display">
           <div class="nvr-card">
             <div class="circular-progress">
-            <CircularProgress start={0} percent={35} size={75} strokeWidth={9} animationDuration={2000}/>
+            <CircularProgress start={0} percent={45} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">350,000,000</span> (35 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">450,000,000</span> (45 %)</h3>
               <p class="text nrv-text">Community Reserve</p>
-              <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research, incentives)</p>
+              <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research, liquidity)</p>
               <p class="text nvr-text">• Vesting: linear release over 60 months</p>
             </div>
           </div>
 
           <div class="nvr-card">
             <div class="circular-progress">
-              <CircularProgress start={35} percent={23} size={75} strokeWidth={9} animationDuration={2000}/>
+              <CircularProgress start={45} percent={23} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">230,000,000</span> (23 %)</h3>
-              <p class="text nrv-text">Team and Advisors</p>
+              <p class="text nrv-text">Core Contributors</p>
               <p class="text nvr-text">• Team members’ and advisors’ incentives</p>
-              <p class="text nvr-text">• Vesting: 3-month cliff, then linear release over 24 months</p> 
+              <p class="text nvr-text">• Vesting: 6-month cliff, then linear release over 24 months</p> 
             </div>
           </div>
 
           <div class="nvr-card">
             <div class="circular-progress">
-              <CircularProgress start={58} percent={10} size={75} strokeWidth={9} animationDuration={2000}/>
+              <CircularProgress start={68} percent={3} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">30,000,000</span> (3 %)</h3>
               <p class="text nrv-text">Initial Dex Offering (IDO)</p>
               <p class="text nvr-text">• Public sale to bootstrap decentralization</p>
               <p class="text nvr-text">• No vesting</p>
@@ -88,10 +88,10 @@ export default function Docs() {
 
           <div class="nvr-card">
             <div class="circular-progress">
-              <CircularProgress start={68} percent={20} size={75} strokeWidth={9} animationDuration={2000}/>
+              <CircularProgress start={71} percent={17} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">200,000,000</span> (20 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">170,000,000</span> (17 %)</h3>
               <p class="text nrv-text">Private Investors</p>
               <p class="text nvr-text">• Seed & strategic backers</p>
               <p class="text nvr-text">• Vesting: 3-month cliff, then linear release over 12 months</p>
@@ -104,9 +104,9 @@ export default function Docs() {
             </div>
             <div class="nvr-card-text">
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
-              <p class="text nrv-text">Initial Liquidity</p>
-              <p class="text nvr-text">• Liquidity provision for DEX pools</p>
-              <p class="text nvr-text">• Release: No vesting </p>
+              <p class="text nrv-text">Incentives</p>
+              <p class="text nvr-text">• Community events, governance participation, arbitration rewards, bug bounty and participation rewards</p>
+              <p class="text nvr-text">• Vesting: Linear release over 36 months </p>
             </div>
           </div>
 
