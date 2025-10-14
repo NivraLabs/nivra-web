@@ -92,8 +92,8 @@ export default function Roadmap() {
             </div>
             <ul class="roadmap-list">
               <li class="text-4">Conduct smart contract audits</li>
-              <li class="text-4">Launch mainnet</li>
               <li class="text-4">Initiate bug bounty program</li>
+              <li class="text-4">Launch mainnet</li>
             </ul> 
           </div>
 
@@ -166,8 +166,8 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2026 Q3</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">Conduct smart contract audits</li>
-              <li class="text-4">Launch mainnet</li>
               <li class="text-4">Initiate bug bounty program</li>
+              <li class="text-4">Launch mainnet</li>
             </ul> 
           </div>
 
