@@ -106,7 +106,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
               <p class="text nrv-text">Incentives</p>
               <p class="text nvr-text">• Community events, governance participation, arbitration rewards, bug bounty and participation rewards</p>
-              <p class="text nvr-text">• Vesting: Linear release over 36 months </p>
+              <p class="text nvr-text">• Vesting:  5% Unlocked at TGE, linear release over 36 months </p>
             </div>
           </div>
 
