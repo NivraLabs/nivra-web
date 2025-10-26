@@ -58,7 +58,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">450,000,000</span> (45 %)</h3>
               <p class="text nrv-text">Community Reserve</p>
               <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research, liquidity)</p>
-              <p class="text nvr-text">• Vesting: linear release over 60 months</p>
+              <p class="text nvr-text">• Vesting: 5% unlocked at TGE, linear release over 60 months</p>
             </div>
           </div>
 
