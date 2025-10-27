@@ -52,13 +52,24 @@ export default function Docs() {
         <div class="nvr-card-display">
           <div class="nvr-card">
             <div class="circular-progress">
-            <CircularProgress start={0} percent={45} size={75} strokeWidth={9} animationDuration={2000}/>
+            <CircularProgress start={0} percent={43} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">450,000,000</span> (45 %)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">430,000,000</span> (43 %)</h3>
               <p class="text nrv-text">Community Reserve</p>
-              <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research, liquidity)</p>
+              <p class="text nvr-text">• Long-term ecosystem fund (grants, dev support, research)</p>
               <p class="text nvr-text">• Vesting: 5% unlocked at TGE, linear release over 60 months</p>
+            </div>
+          </div>
+
+          <div class="nvr-card">
+            <div class="circular-progress">
+              <CircularProgress start={43} percent={2} size={75} strokeWidth={9} animationDuration={2000}/>
+            </div>
+            <div class="nvr-card-text">
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">20,000,000</span> (2 %)</h3>
+              <p class="text nrv-text">Initial Liquidity</p>
+              <p class="text nvr-text">• 100% Release at TGE, 12 month lock</p> 
             </div>
           </div>
 
@@ -106,7 +117,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">100,000,000</span> (10 %)</h3>
               <p class="text nrv-text">Incentives</p>
               <p class="text nvr-text">• Community events, governance participation, arbitration rewards, bug bounty and participation rewards</p>
-              <p class="text nvr-text">• Vesting:  5% Unlocked at TGE, linear release over 36 months </p>
+              <p class="text nvr-text">• Vesting:  5% unlocked at TGE, linear release over 36 months </p>
             </div>
           </div>
 
