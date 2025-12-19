@@ -57,6 +57,13 @@
   padding: 60px;
 }
 
+.subscribe-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 45px;
+}
+
 .qa-cont {
   display: flex;
   flex-direction: column;
@@ -160,6 +167,20 @@
 
 .fade-in-slow.visible {
   opacity: 1;
+}
+
+.sub-link {
+  background-color: #473a87;
+  padding: 15px;
+  max-width: 1200px;
+  width: 100%;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-slide {
+  gap: 30px;
 }
 
 @media only screen and (max-width : 768px) {

@@ -32,6 +32,11 @@ export default function Home() {
         <p class="pre-heading-1">Nivra is a decentralized arbitration protocol that combines human and AI arbitrators to deliver transparent verdicts.</p>
       </div>
 
+      <div class="subscribe-slide">
+        <h1>Subscribe for updates & early access</h1>
+        <a class="sub-link" href="https://nivra.kit.com/cc122bc2c6">Subscribe</a>
+      </div>
+
       <CardSlider 
         cards={[
           <p class="text">The global economy is rapidly migrating to Web3. This new digital world requires an innovative dispute resolution system tailored to the needs of Web3, which Nivra provides.</p>,
