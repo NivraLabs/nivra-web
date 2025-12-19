@@ -27,16 +27,15 @@ export default function Home() {
   return(
     <>
       <div class="intro-slide">
-        <p class="pre-heading-1">Fast and fair on-chain justice</p>
+        <p class="pre-heading-1">A fast and fair way to handle digital conflicts</p>
         <h2 class="slogan-1 heading-1">Settle<br />Web3<br />Dispute</h2>
-        <p class="pre-heading-1">Nivra is a modular arbitration protocol delivering transparent on-chain verdicts.</p>
+        <p class="pre-heading-1">Nivra is a decentralized arbitration protocol that combines human and AI arbitrators to deliver transparent verdicts.</p>
       </div>
 
       <CardSlider 
         cards={[
-          <p class="text">The global economy is rapidly migrating to blockchains and smart contracts. Disputes in smart contracts demand a new form of dispute 
-          resolution, which Nivra provides.</p>,
-          <p class="text">Nivra offers a decentralized arbitration protocol for Sui Network’s smart contracts. This enables disputes to be resolved quickly, transparently, and securely.<br/> </p>
+          <p class="text">The global economy is rapidly migrating to Web3. This new digital world requires an innovative dispute resolution system tailored to the needs of Web3, which Nivra provides.</p>,
+          <p class="text">Nivra offers a decentralized arbitration protocol on the Sui Network. This enables disputes to be resolved quickly, transparently, and securely without a centralized authority.<br/> </p>
         ]}
         imgs={[nivra_p17,img_4220]} 
         title="Arbitration Protocol for On-Chain Disputes"
@@ -51,8 +50,7 @@ export default function Home() {
           <div class="card-2-text">
             <h3 class="heading-3-2">Revolutionizing Conflict Management</h3>
             <p class="pre-heading-2">
-              When a conflict arises, Nivra Court randomly selects autonomous Nivsters. 
-              Their incentive-aligned voting makes honesty the rational choice. 
+              Each case is assigned to a specialized subcourt where both AI agents and human arbitrators, known as Nivsters, are randomly selected based on their token-stake weight. Their incentive-aligned voting ensures that honesty is the rational choice.
             </p>
           </div>
           </GrowFadeIn>
@@ -83,7 +81,7 @@ export default function Home() {
             <h3 class="heading-3-2">Streamlined Resolution Process</h3>
             <p class="pre-heading-2">
               Once a majority verdict is reached, the smart contract enforces it instantly and delivers swift, 
-              incorruptible finality without any central authority. 
+              The majority vote determines the final ruling. Nivsters cast their encrypted votes independently on-chain, without access to others’ choices.
             </p>
           </div>
           </GrowFadeIn>
@@ -163,7 +161,7 @@ export default function Home() {
         </FadeInSlow>
         <FadeInSlow>
           <div class="g-card">
-            <p class="text">Bug Hunting</p>
+            <p class="text">Prediction Market</p>
             <img src={nivra_icon_9} class="g-icon"/>
           </div>
         </FadeInSlow>
