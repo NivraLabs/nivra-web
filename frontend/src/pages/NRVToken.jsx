@@ -81,7 +81,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">230,000,000</span> (23 %)</h3>
               <p class="text nrv-text">Core Contributors</p>
               <p class="text nvr-text">• Team members’ and advisors’ incentives</p>
-              <p class="text nvr-text">• Vesting: 6-month cliff, then linear release over 24 months</p> 
+              <p class="text nvr-text">• Vesting: 12-month cliff, then linear release over 36 months</p> 
             </div>
           </div>
 
@@ -105,7 +105,7 @@ export default function Docs() {
               <h3 class="head-4 nrv-head"><span class="nvr-highlight">170,000,000</span> (17 %)</h3>
               <p class="text nrv-text">Private Investors</p>
               <p class="text nvr-text">• Seed & strategic backers</p>
-              <p class="text nvr-text">• Vesting: 3-month cliff, then linear release over 12 months</p>
+              <p class="text nvr-text">• Vesting: 6-month cliff, then linear release over 12 months</p>
             </div>
           </div>
 
