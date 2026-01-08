@@ -14,7 +14,7 @@ export default function About() {
       <div class="about-wrapper">
         <div class="problem-slide">
           <h2 class="head-3">Problem Statement</h2>
-          <p class="text-black">The absence of a truly decentralized arbitration protocol undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
+          <p class="text-black">The absence of a truly decentralized dispute protocol undermines both conventional arbitration and blockchain ecosystems. Traditional dispute resolution remains slow, expensive, and opaque. In the blockchain realm, the lack of an on‑chain dispute mechanism limits developers’ ability to build innovations that would otherwise be technically possible.</p>
 
           <div class="problem-wrapper">
           <h3 class="head-4-c">Problems with traditional arbitration</h3>
@@ -82,7 +82,7 @@ export default function About() {
           </FadeIn>
 
           <FadeIn class="mission-card">
-            <p class="text">Inhibited innovation and collaboration, as the lack of a shared arbitration protocol discourages modular design and cross‑team development.</p>
+            <p class="text">Inhibited innovation and collaboration, as the lack of a shared dispute protocol discourages modular design and cross‑team development.</p>
           </FadeIn>
 
           </div>
@@ -151,7 +151,7 @@ export default function About() {
             <ScrollAnimated>
             <img class="team-img" src={nivra_team} />
             </ScrollAnimated>
-            <p class="text-white-n">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of reimagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized arbitration protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.</p>
+            <p class="text-white-n">Nivra is steered by a Nordic team of passionate blockchain experts, united by the goal of reimagining dispute resolution. We fuse Web3 engineering, AI research, and game‑theoretic economics to build a decentralized dispute protocol rooted in the Scandinavian ideals of openness, fairness, and user‑centric design.</p>
             <p class="text-white-n">Leveraging our solid background in Rust, whose ownership and resource‑safety model closely mirrors Move, we found it a breeze to begin Nivra’s journey on Sui.</p>
           </div>
         </div>

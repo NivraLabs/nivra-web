@@ -29,21 +29,21 @@ export default function Home() {
       <div class="intro-slide">
         <p class="pre-heading-1">A fast and fair way to handle digital conflicts</p>
         <h2 class="slogan-1 heading-1">Settle<br />Web3<br />Dispute</h2>
-        <p class="pre-heading-1">Nivra is a decentralized arbitration protocol that combines human and AI arbitrators to deliver transparent verdicts.</p>
+        <p class="pre-heading-1">Nivra is the first decentralized dispute resolution protocol that combines human and AI jurors to deliver transparent verdicts.</p>
       </div>
 
       <div class="subscribe-slide">
-        <h1>Subscribe for updates & early access</h1>
+        <h1>Subscribe for early access</h1>
         <a class="sub-link" href="https://nivra.kit.com/cc122bc2c6">Subscribe</a>
       </div>
 
       <CardSlider 
         cards={[
           <p class="text">The global economy is rapidly migrating to Web3. This new digital world requires an innovative dispute resolution system tailored to the needs of Web3, which Nivra provides.</p>,
-          <p class="text">Nivra offers a decentralized arbitration protocol on the Sui Network. This enables disputes to be resolved quickly, transparently, and securely without a centralized authority.<br/> </p>
+          <p class="text">Nivra offers a decentralized dispute protocol on the Sui Network. This enables disputes to be resolved quickly, transparently, and securely without a centralized authority.<br/> </p>
         ]}
         imgs={[nivra_p17,img_4220]} 
-        title="Arbitration Protocol for On-Chain Disputes"
+        title="Dispute Protocol for On-Chain Disputes"
       />
 
       <div class="desc-slide-2">
