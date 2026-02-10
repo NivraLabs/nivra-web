@@ -101,16 +101,6 @@ export default function Roadmap() {
             </ul> 
           </div>
 
-          <div class="roadmap-item animation-item" id="roadmap-point7">
-            <div class="roadmap-item-head">
-              <h3 class="head-3 no-wrap">2027 XX</h3>
-              <div class="roadmap-tree-fork"></div>
-            </div>
-            <ul class="roadmap-list">
-              <li class="text-4">Cross-chain bridges</li>
-            </ul> 
-          </div>
-
         </div>
 
         <div class="roadmap-grid-mobile">
@@ -177,14 +167,6 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2026 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">AI Agents as Nivsters</li>
-            </ul> 
-          </div>
-
-          <div class="roadmap-item-right animation-item" id="roadmap-point7">
-            <div class="roadmap-fork-right"></div>
-            <h3 class="head-3 head-3-right no-wrap">2027 XX</h3>
-            <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Cross-chain bridges</li>
             </ul> 
           </div>
 

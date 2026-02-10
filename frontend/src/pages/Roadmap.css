@@ -54,7 +54,7 @@ ul {
 
 .roadmap-tree {
   grid-column: 2;
-  grid-row: 1 / 8;
+  grid-row: 1 / 7;
   width: 12px;
   background: linear-gradient(white, #473a87);
   border-radius: 15px;
@@ -126,7 +126,7 @@ ul {
 
 .roadmap-tree-mobile {
   grid-column: 1;
-  grid-row: 1 / 8;
+  grid-row: 1 / 7;
   width: 12px;
   background: linear-gradient(white, #473a87);
   border-radius: 15px;
