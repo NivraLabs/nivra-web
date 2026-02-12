@@ -27,9 +27,9 @@ export default function Home() {
   return(
     <>
       <div class="intro-slide">
-        <p class="pre-heading-1">A fast and fair way to handle digital conflicts</p>
-        <h2 class="slogan-1 heading-1">Settle<br />Web3<br />Dispute</h2>
-        <p class="pre-heading-1">Nivra is the first decentralized dispute resolution protocol that combines human and AI jurors to deliver transparent verdicts.</p>
+        <p class="pre-heading-1">A decentralized dispute resolution protocol for fast, transparent outcomes in digital conflicts.</p>
+        <h2 class="slogan-1 heading-1">Nivra</h2>
+        <p class="pre-heading-1">Resolve Web3 and Web2 disputes with human experts and AI agents.</p>
       </div>
 
       <div class="subscribe-slide">
@@ -39,11 +39,11 @@ export default function Home() {
 
       <CardSlider 
         cards={[
-          <p class="text">The global economy is rapidly migrating to Web3. This new digital world requires an innovative dispute resolution system tailored to the needs of Web3, which Nivra provides.</p>,
-          <p class="text">Nivra offers a decentralized dispute protocol on the Sui Network. This enables disputes to be resolved quickly, transparently, and securely without a centralized authority.<br/> </p>
+          <p class="text">Traditional dispute resolution methods don’t meet the needs of today’s global, digital economy. Nivra offers an alternative approach that helps businesses reduce dispute-handling costs and resolution times, while improving customer satisfaction.</p>,
+          <p class="text">In Web3, disputes still arise when outcomes depend on off-chain facts or subjective interpretation. Nivra provides a transparent, on-chain way to resolve these cases.</p>
         ]}
         imgs={[nivra_p17,img_4220]} 
-        title="Dispute Protocol for On-Chain Disputes"
+        title="Dispute Resolution for Web2 and Web3"
       />
 
       <div class="desc-slide-2">
@@ -55,7 +55,7 @@ export default function Home() {
           <div class="card-2-text">
             <h3 class="heading-3-2">Revolutionizing Conflict Management</h3>
             <p class="pre-heading-2">
-              Each case is assigned to a specialized subcourt where both AI agents and human arbitrators, known as Nivsters, are randomly selected based on their token-stake weight. Their incentive-aligned voting ensures that honesty is the rational choice.
+              When a dispute arises, each case is assigned to a specialized court. Jurors are then randomly selected based on their token-stake weight. Incentive-aligned voting makes honest decisions the rational choice.
             </p>
           </div>
           </GrowFadeIn>
@@ -85,8 +85,7 @@ export default function Home() {
           <div class="card-2-text">
             <h3 class="heading-3-2">Streamlined Resolution Process</h3>
             <p class="pre-heading-2">
-              Once a majority verdict is reached, the smart contract enforces it instantly and delivers swift, 
-              The majority vote determines the final ruling. Nivsters cast their encrypted votes independently on-chain, without access to others’ choices.
+              Nivsters vote based on the evidence submitted in the case. They cast encrypted votes independently on-chain, without access to others’ choices. The final outcome is determined by the majority ruling.
             </p>
           </div>
           </GrowFadeIn>
