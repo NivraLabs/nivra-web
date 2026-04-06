@@ -65,8 +65,6 @@ export default function Roadmap() {
             </div>
             <ul class="roadmap-list">
               <li class="text-4">Minimum viable product</li>
-              <li class="text-4">Initiate development of developer SDKs and integration libraries</li>
-              <li class="text-4">Publish protocol usage guide for end-users</li>
             </ul> 
           </div>
 
@@ -74,9 +72,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q2</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Publish developer integration guide for embedding the arbitration protocol</li>
-              <li class="text-4">Public beta</li>
-              <li class="text-4">Fix bugs and make adjustments</li>
+              <li class="text-4">Smart contracts</li>
+              <li class="text-4">Closed beta</li>
+              <li class="text-4">Protocol usage guide</li>
             </ul> 
           </div>
 
@@ -86,10 +84,9 @@ export default function Roadmap() {
               <div class="roadmap-tree-fork"></div>
             </div>
             <ul class="roadmap-list">
+              <li class="text-4">SDK</li>
+              <li class="text-4">Public beta</li>
               <li class="text-4">Audit</li>
-              <li class="text-4">Initiate bug bounty program</li>
-              <li class="text-4">Token generation event</li>
-              <li class="text-4">Launch mainnet</li>
             </ul> 
           </div>
 
@@ -97,7 +94,10 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">AI Agents as Nivsters</li>
+              <li class="text-4">Mainnet</li>
+              <li class="text-4">Token generation event</li>
+              <li class="text-4">AI Agents</li>
+              <li class="text-4">Governance</li>
             </ul> 
           </div>
 
@@ -136,8 +136,6 @@ export default function Roadmap() {
             <h3 class="head-3 head-3-right no-wrap">2026 Q1</h3>
             <ul class="roadmap-list roadmap-list-right">
               <li class="text-4">Minimum viable product</li>
-              <li class="text-4">Initiate development of developer SDKs and integration libraries</li>
-              <li class="text-4">Publish protocol usage guide for end-users</li>
             </ul> 
           </div>
 
@@ -145,9 +143,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q2</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">Publish developer integration guide for embedding the arbitration protocol</li>
-              <li class="text-4">Public beta</li>
-              <li class="text-4">Fix bugs and make adjustments</li>
+              <li class="text-4">Smart contracts</li>
+              <li class="text-4">Closed beta</li>
+              <li class="text-4">Protocol usage guide</li>
             </ul> 
           </div>
 
@@ -155,10 +153,9 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q3</h3>
             <ul class="roadmap-list roadmap-list-right">
+              <li class="text-4">SDK</li>
+              <li class="text-4">Public beta</li>
               <li class="text-4">Audit</li>
-              <li class="text-4">Initiate bug bounty program</li>
-              <li class="text-4">Token generation event</li>
-              <li class="text-4">Launch mainnet</li>
             </ul> 
           </div>
 
@@ -166,7 +163,10 @@ export default function Roadmap() {
             <div class="roadmap-fork-right"></div>
             <h3 class="head-3 head-3-right no-wrap">2026 Q4</h3>
             <ul class="roadmap-list roadmap-list-right">
-              <li class="text-4">AI Agents as Nivsters</li>
+              <li class="text-4">Mainnet</li>
+              <li class="text-4">Token generation event</li>
+              <li class="text-4">AI Agents</li>
+              <li class="text-4">Governance</li>
             </ul> 
           </div>
 

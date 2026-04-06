@@ -67,7 +67,7 @@ export default function Docs() {
               <CircularProgress start={43} percent={4} size={75} strokeWidth={9} animationDuration={2000}/>
             </div>
             <div class="nvr-card-text">
-              <h3 class="head-4 nrv-head"><span class="nvr-highlight">20,000,000</span> (4%)</h3>
+              <h3 class="head-4 nrv-head"><span class="nvr-highlight">40,000,000</span> (4%)</h3>
               <p class="text nrv-text">Initial Liquidity</p>
               <p class="text nvr-text">• 100% Release at TGE, 24 month lock</p> 
             </div>
